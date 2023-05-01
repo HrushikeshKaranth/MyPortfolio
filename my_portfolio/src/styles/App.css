@@ -5,55 +5,165 @@
   box-sizing: border-box;
 }
 
-.app {
-  width: 100%;
-  background-color: rgb(48, 48, 48);
-  font-family: "Nunito Sans", sans-serif;
-  color: rgb(212, 212, 212);
+@media screen and (min-width: 1150px) {
+  .app {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(212, 212, 212);
+  }
+  .intro {
+    border-bottom: 5px solid rgb(57, 116, 185);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem 1rem;
+  }
+  .introLeftSide {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .introLeftSide .myName {
+    font-size: 48px;
+    font-weight: 500;
+    color: rgb(57, 116, 185);
+  }
+  .introLeftSide .jobProfile {
+    font-size: 36px;
+    font-weight: 500;
+    color: rgba(255, 254, 254, 0.3803921569);
+    background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#1d1c1c), color-stop(0.8, #ffffff)) no-repeat;
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+    background-size: 70px 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flick 4s infinite;
+    transition: all 0.3s;
+  }
+  @keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    50% {
+      background-position: top right;
+    }
+    100% {
+      background-position: top left;
+    }
+  }
+  .introLeftSide .bio {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .introMiddle div {
+    background-image: url("../images/profile_photo.jpg");
+    background-size: 100% 100%;
+    background-color: rgb(57, 116, 185);
+    margin-left: 1rem;
+    width: 180px;
+    height: 220px;
+    border: 3px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+  .introRightSide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-left: 5px solid rgb(57, 116, 185);
+    padding: 0 2rem;
+  }
+  .introRightSide div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .introRightSide div .icon {
+    width: 24px;
+    height: 24px;
+  }
+  .introRightSide div a {
+    text-decoration: none;
+    color: rgb(196, 100, 117);
+  }
+}
+@media screen and (max-width: 1149px) {
+  .app {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(212, 212, 212);
+  }
+  .intro {
+    border-bottom: 5px solid rgb(57, 116, 185);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+  .introLeftSide {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .introLeftSide .myName {
+    font-size: 48px;
+    font-weight: 500;
+    color: rgb(57, 116, 185);
+  }
+  .introLeftSide .jobProfile {
+    font-size: 36px;
+    font-weight: 500;
+    color: rgba(255, 254, 254, 0.3803921569);
+    background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#1d1c1c), color-stop(0.8, #ffffff)) no-repeat;
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+    background-size: 70px 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flick 4s infinite;
+    transition: all 0.3s;
+  }
+  @keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    50% {
+      background-position: top right;
+    }
+    100% {
+      background-position: top left;
+    }
+  }
+  .introLeftSide .bio {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .introMiddle div {
+    background-image: url("../images/profile_photo.jpg");
+    background-size: 100% 100%;
+    background-color: rgb(57, 116, 185);
+    margin-left: 1rem;
+    width: 180px;
+    height: 220px;
+    border: 3px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+  .introRightSide {
+    display: none;
+  }
 }
 
-.intro {
-  border-bottom: 5px solid skyblue;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-.introLeftSide {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-}
-.introLeftSide .myName {
-  font-size: 48px;
-  color: rgb(57, 116, 185);
-}
-
-.introMiddle {
-  background-image: url("../images/profile_photo.jpg");
-  background-size: cover;
-  margin-left: 1rem;
-  width: 450px;
-  height: 200px;
-  border: 1px solid;
-}
-
-.introRightSide {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-}
-.introRightSide div .icon {
-  width: 24px;
-  height: 24px;
-}
-.introRightSide div a {
-  text-decoration: none;
-  color: purple;
-}/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
