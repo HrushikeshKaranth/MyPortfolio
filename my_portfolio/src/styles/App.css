@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(212, 212, 212);
+}
+
+.intro {
+  border-bottom: 5px solid skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.introLeftSide {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.introLeftSide .myName {
+  font-size: 48px;
+  color: rgb(57, 116, 185);
+}
+
+.introMiddle {
+  background-image: url("../images/profile_photo.jpg");
+  background-size: cover;
+  margin-left: 1rem;
+  width: 450px;
+  height: 200px;
+  border: 1px solid;
+}
+
+.introRightSide {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.introRightSide div .icon {
+  width: 24px;
+  height: 24px;
+}
+.introRightSide div a {
+  text-decoration: none;
+  color: purple;
+}/*# sourceMappingURL=App.css.map */

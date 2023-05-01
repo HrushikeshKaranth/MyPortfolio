@@ -1,0 +1,66 @@
+@import '../styles/variables/Variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap');
+
+@mixin flexEnd($v: flex-end, $h: center) {
+    display: flex;
+    align-items: $v;
+    justify-content: $h;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100%;
+    background-color: $primaryColor;
+    font-family: $primaryFont;
+    color: $textColor1;
+}
+
+.intro {
+    border-bottom: 5px solid skyblue;
+    @include flexEnd($v: center, $h: space-around);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.introLeftSide {
+    width: 100%;
+    @include flexEnd($v: flex-start, $h: center);
+    flex-direction: column;
+    .myName{
+        font-size: 48px;
+        color: $textcolor2;
+    }
+}
+
+.introMiddle {
+    background-image: url('../images/profile_photo.jpg');
+    background-size: cover;
+    background-color: $textColor2;
+    margin-left: 1rem;
+    width: 450px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.introRightSide {
+    @include flexEnd($v: flex-end, $h: center);
+    flex-direction: column;
+    width: 100%;
+
+    div {
+        .icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        a {
+            text-decoration: none;
+            color: purple;
+        }
+    }
+}
