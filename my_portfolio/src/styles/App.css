@@ -34,7 +34,7 @@
     color: rgb(57, 116, 185);
   }
   .introLeftSide .jobProfile {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     color: rgba(255, 254, 254, 0.3803921569);
     background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#1d1c1c), color-stop(0.8, #ffffff)) no-repeat;
@@ -57,7 +57,7 @@
     }
   }
   .introLeftSide .bio {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
   }
   .introMiddle div {
