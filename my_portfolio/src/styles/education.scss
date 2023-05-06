@@ -1,0 +1,26 @@
+@import '../styles/variables/Variables.scss';
+
+@mixin flexEnd($v: flex-end, $h: center) {
+    display: flex;
+    align-items: $v;
+    justify-content: $h;
+}
+
+.education{
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 3px solid $trenaryColor;
+    // border-bottom: 3px solid $gGreen;
+}
+
+.headerEducation{
+    font-size: 24px;
+    cursor: pointer;
+    color: $trenaryColor;
+    width: 100%;
+    @include flexEnd($v: center, $h: space-between);
+    gap: 1rem;
+    span{
+        cursor: pointer;
+    }
+}

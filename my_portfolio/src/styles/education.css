@@ -1,0 +1,21 @@
+.education {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 3px solid rgb(193, 177, 207);
+}
+
+.headerEducation {
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(193, 177, 207);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.headerEducation span {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=education.css.map */

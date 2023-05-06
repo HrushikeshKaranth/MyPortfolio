@@ -1,0 +1,96 @@
+{
+    "data":[
+        {
+            "id":1,
+            "companyName":"RELIGH TECHNOLOGIES",
+            "address":"Bengaluru, Karnataka, India",
+            "from":"01/2023",
+            "to":"Present",
+            "workTime":"Full Time",
+            "jobTitle":"Junior Full Stack Developer",
+            "tasks":[
+                "Understand client requirements and execute on design.",
+                "Adhere to key design principles.",
+                "Optimize pages for speed, scalability, and mobile use.",
+                "Co-ordinate with the team and build reusable code.",
+                "Skills: React JS, Javascript, MySQL, Flask, REST API, Python, CSS3, HTML5, GitHub"
+            ],
+            "locationUrl":"https://www.google.com/maps/place/Religh+Technologies+-+Best+Web+Development+and+Digital+Marketing+Company+in+Bangalore/@13.0149436,77.5486915,726m/data=!3m3!1e3!4b1!5s0x3bae3d79ef3864ef:0xc56defce19104cfe!4m6!3m5!1s0x3bae3de1acf267c1:0xa2aeb972709a94b4!8m2!3d13.0149384!4d77.5512664!16s%2Fg%2F11t147wkv_",
+            "website":"https://www.relightechnologies.com/",
+            "linkedin":"https://www.linkedin.com/company/religh-technologies/mycompany/",
+            "logo":"https://cdn-incpj.nitrocdn.com/lVjWVPHymomsdHyozhuvwmeDraPPaUSd/assets/images/optimized/rev-9a85456/assets/img/Religh-Logo.png"
+        },
+        {
+            "id":2,
+            "companyName":"CODEPROOFS PVT LTD",
+            "address":"Bengaluru, Karnataka, India",
+            "from":"01/2021",
+            "to":"06/2021",
+            "workTime":"Internship",
+            "jobTitle":"Python Developer",
+            "tasks":[
+                "Writing effective, scalable code.",
+                "Develop back-end components, Wrote Flask API's to improve overall performance.",
+                "Coordinate with internal teams, test and debug programs.",
+                "Attended meetings with clients.",
+                "Skills: Python, Flask, REST API"
+            ],
+            "locationUrl":"https://www.google.com/maps/place/codeproofs+Private+Limited/@12.9188727,77.5901392,727m/data=!3m3!1e3!4b1!5s0x3bae1509087e3499:0xb2c338409cd0a0b8!4m6!3m5!1s0x3bae1504bc3fd813:0xdb6041eb83be111f!8m2!3d12.9188675!4d77.5927141!16s%2Fg%2F11frnl0vq0",
+            "website":"https://www.linkedin.com/company/codeproofs-private-limited/about/",
+            "linkedin":"https://www.linkedin.com/company/codeproofs-private-limited/about/",
+            "logo":"https://media.licdn.com/dms/image/C510BAQGcO3fZkiSKrw/company-logo_200_200/0/1559039715564?e=1691625600&v=beta&t=1Suullx0vgZcIFHQqAyXM6bOjw1rK2oIV2E6p_oeJ5Q"
+        }
+    ],
+    "education":[
+        {
+            "id":1,
+            "companyName":"PES UNIVERSITY",
+            "address":"Bengaluru, Karnataka, India",
+            "from":"08/2018",
+            "to":"11/2021",
+            "workTime":"Full Time",
+            "jobTitle":"B. Tech in Computer Science",
+            "tasks":[
+                "CGPA: 6.83",
+                "Major Project: Realtime Traffic Management using IOV."
+            ],
+            "locationUrl":"https://www.google.com/maps/place/PES+University/@12.9352711,77.5342966,727m/data=!3m1!1e3!4m6!3m5!1s0x3bae3e468d8d36d3:0x694d74f6ac640acf!8m2!3d12.93538!4d77.5358251!16zL20vMDYwcjB3",
+            "website":"https://pes.edu/",
+            "linkedin":"https://www.linkedin.com/school/pesuniversity/",
+            "logo":"https://pes.edu/wp-content/uploads/2022/09/PESU-new-logo.png"   
+        },
+        {
+            "id":2,
+            "companyName":"DSDNP",
+            "address":"Shimoga, Karnataka, India",
+            "from":"06/2015",
+            "to":"05/2018",
+            "workTime":"Full Time",
+            "jobTitle":"Diploma in Computer Science",
+            "tasks":[
+                "CGPA: 8.2",
+                "Major Project: Data hiding using Steganography concepts."
+            ],
+            "locationUrl":"https://www.google.com/maps/place/D.S.+Dinakar+Polytechnic+(D.S.D.P)/@13.9699553,75.5762271,459m/data=!3m1!1e3!4m6!3m5!1s0x3bbbaee100652cb1:0x46efdf17307eeb30!8m2!3d13.969729!4d75.5772256!16s%2Fg%2F1hm25g14x",
+            "website":"",
+            "linkedin":"",
+            "logo":"https://jnnce.ac.in/jnnlogo.png"   
+        },
+        {
+            "id":3,
+            "companyName":"Sri Adichunchanagiri Shikshana Trust",
+            "address":"Shimoga, Karnataka, India",
+            "from":"06/2012",
+            "to":"04/2013",
+            "workTime":"Full Time",
+            "jobTitle":"SSLC",
+            "tasks":[
+                "Percentage: 70.88"
+            ],
+            "locationUrl":"https://www.google.com/maps/search/bgs+gurupura/@13.9305378,75.6006374,611m/data=!3m1!1e3",
+            "website":"http://www.bgspugurupurashimoga.org/",
+            "linkedin":"",
+            "logo":"http://www.bgspugurupurashimoga.org/img/faviconBGS.png"   
+        }
+    ]
+}

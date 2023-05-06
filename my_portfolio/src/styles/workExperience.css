@@ -1,0 +1,198 @@
+@keyframes breath {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(120%);
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.workExperience {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 3px solid #34a853;
+  border-bottom: 3px solid #34a853;
+}
+
+.header {
+  font-size: 24px;
+  cursor: pointer;
+  color: #34a853;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.header span {
+  cursor: pointer;
+}
+
+.companies {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  transition: all 0.3s;
+}
+
+.company {
+  width: 49%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(37, 37, 37);
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 1rem;
+  position: relative;
+}
+.company ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.company .websiteUrl {
+  background-color: rgb(48, 48, 48);
+  border-radius: 50%;
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+}
+.company .websiteUrl a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: rgb(228, 131, 149);
+}
+.company .websiteUrl a .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.companyName {
+  display: flex;
+  align-items: none;
+  justify-content: none;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.companyName a {
+  text-decoration: none;
+  color: rgb(110, 163, 224);
+}
+.companyName span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(110, 163, 224);
+}
+.companyName span .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+.companyName div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(110, 163, 224);
+}
+.companyName div a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.3rem;
+  line-height: 1rem;
+}
+.companyName div a .locicon {
+  width: 12px;
+  height: 12px;
+  color: rgb(228, 131, 149);
+  animation: breath 2.5s infinite;
+}
+
+.companyLogo {
+  background-color: rgb(37, 37, 37);
+  margin-bottom: 1rem;
+}
+.companyLogo img {
+  height: 50px;
+}
+
+.fromAndTo {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 14px;
+}
+
+.jobTitle {
+  background-color: rgb(48, 48, 48);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: rgb(110, 163, 224);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 1rem;
+  color: rgb(212, 212, 212);
+}
+.description span {
+  font-size: 16px;
+  font-weight: 400;
+}
+.description ul {
+  font-size: 14px;
+  font-weight: 300;
+  list-style-type: square;
+}
+
+.breath {
+  width: 20px;
+  height: 20px;
+  color: rgb(228, 131, 149);
+  animation: breath 2.5s infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .hide {
+    display: none;
+  }
+  .company {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hide {
+    display: none;
+  }
+  .company {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=workExperience.css.map */
