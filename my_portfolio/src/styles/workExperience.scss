@@ -18,6 +18,15 @@
     }
 }
 
+@keyframes openAnime {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .workExperience{
     margin-top: 1rem;
     padding: 1rem;
@@ -45,9 +54,11 @@
     gap: 1rem;
     flex-wrap: wrap;
     transition: all .3s;
+    
 }
 .company{
     // border: 2px solid $gGreen;
+    animation: openAnime .3s;
     width: 49%;
     @include flexEnd($v: flex-start, $h: flex-start);
     flex-wrap: wrap;
@@ -55,6 +66,7 @@
     border-radius: 5px;
     flex-direction: column;
     padding: 1rem;
+    transition: all .3s;
     position: relative;
     ul{
         @include flexEnd($v: flex-start, $h: flex-start);
@@ -167,6 +179,10 @@
     }
     .company{
         width: 100%;
+    }
+    .scrollButton{
+        width: 45px;
+        height: 45px;
     }
 }
 @media screen and (max-width: 425px) {

@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { Icon } from '@iconify/react';
 import IntroSection from "./components/IntroSection";
 import WorkExperience from "./components/WorkExperience";
 import Education from "./components/Education"
@@ -5,7 +7,21 @@ import './styles/intro.css';
 import './styles/workExperience.css';
 import './styles/education.css';
 
+
 function App() {
+  const [showScrollButton, setShowScrollButton] = useState(false)
+  useEffect(()=>{
+    const handleScrollButtonVisibility = () =>{
+      window.pageYOffset > 300 ? setShowScrollButton(true):setShowScrollButton(false)
+    }
+    window.addEventListener('scroll',handleScrollButtonVisibility);
+    return () =>{
+      window.addEventListener('scroll',handleScrollButtonVisibility);
+    }
+  },[])
+  const handleScrollToTop = () =>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  };
   return (
     <div className="app">
       <div className="intro">
@@ -17,6 +33,7 @@ function App() {
       <div className="education">
         <Education/>
       </div>
+      {showScrollButton && <div className='scrollButton' onClick={handleScrollToTop}><Icon icon="material-symbols:arrow-upward-rounded" /></div>}
     </div>
   );
 }

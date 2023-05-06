@@ -1,21 +1,26 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Icon } from '@iconify/react';
 import workdata from './data/data.json'
 
 function Education() {
     const [data, setData] = useState(workdata.education)
     const [showEducation, setshowEducation] = useState(false)
+    let item = useRef()
     const [showDesc, setShowDesc] = useState(false)
-    console.log(data);
+    useEffect(()=>{
+        try {
+            showEducation?item.current.style='transform:rotate(-180deg)':item.current.style='transform:rotate(0deg)'
+        } catch (error) {}
+    },[showEducation])
   return (
     <>
       <div className='headerEducation' onClick={() => { setshowEducation(!showEducation) }}>
         <span>EDUCATION</span>
         {
-          showEducation ?
-            <Icon className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
-            :
-            <Icon className='icon' icon="material-symbols:keyboard-arrow-up-rounded" />
+        //   showEducation ?
+          <Icon ref={item} className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
+        //   :
+        //   <Icon className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
         }
       </div>
       <div className='companies' style={showEducation ? { display: 'flex' } : { display: 'none' }}>
@@ -23,7 +28,7 @@ function Education() {
           {
             data.map((data) => {
               return (
-                <div className='company' key={data.id}>
+                <div className='educationcard' key={data.id}>
                   <div className='companyName'>
                     <div className='companyLogo'><img src={data.logo} alt={data.companyName} /></div>
                     <>

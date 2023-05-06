@@ -1,20 +1,26 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Icon } from '@iconify/react';
 import workdata from './data/data.json'
 
 function WorkExperience() {
+  let item = useRef()
   const [data, setData] = useState(workdata.data)
   const [showWorkExperience, setShowWorkExperience] = useState(false)
-  const [showDesc, setShowDesc] = useState(false)
+  useEffect(()=>{
+    try {
+      showWorkExperience?item.current.style='transform:rotate(-180deg)':item.current.style='transform:rotate(0deg)'
+    } catch (error) {}
+},[showWorkExperience])
+  // const [showDesc, setShowDesc] = useState(false)
   return (
     <>
       <div className='header' onClick={() => { setShowWorkExperience(!showWorkExperience) }}>
         <span>WORK EXPERIENCE</span>
         {
-          showWorkExperience ?
-            <Icon className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
-            :
-            <Icon className='icon' icon="material-symbols:keyboard-arrow-up-rounded" />
+          // showWorkExperience ?
+          <Icon className='icon' ref={item} icon="material-symbols:keyboard-arrow-down-rounded" />
+          // :
+          // <Icon className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
         }
       </div>
       <div className='companies' style={showWorkExperience ? { display: 'flex' } : { display: 'none' }}>
@@ -57,9 +63,9 @@ function WorkExperience() {
                       }
                     </ul>
                   </div>
-                  <div className='websiteUrl'>
+                  {data.website && <div className='websiteUrl'>
                     <a target={'_blank'} href={data.website}><Icon className='icon breath' icon="material-symbols:arrow-forward-rounded" /></a>
-                  </div>
+                  </div>}
                 </div>
               )
             })}
