@@ -39,10 +39,12 @@
     cursor: pointer;
     transition: all .3s;
     animation: growShrink 1.5s infinite;
+    opacity: 0.3;
 }
 .scrollButton:hover{
     transition: all .3s;
     animation: none;
+    opacity: 1;
 }
 .scrollButton:active{
     transform: scale(110%);

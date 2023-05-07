@@ -21,8 +21,7 @@
 .workExperience {
   margin-top: 1rem;
   padding: 1rem;
-  border: 3px solid #34a853;
-  border-bottom: 3px solid #34a853;
+  border: 3px solid rgb(110, 163, 224);
 }
 
 .header {

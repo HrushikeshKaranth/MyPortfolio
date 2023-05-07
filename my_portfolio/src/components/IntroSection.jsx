@@ -27,17 +27,17 @@ function IntroSection() {
                     </div>
                     <div>
                         <Icon className='icon' icon="mdi:github" style={{ color: 'white' }} />
-                        <a target={'_blank'} href='https://github.com/HrushikeshKaranth'>My GitHub Profile</a>
+                        <a target={'_blank'} href='https://github.com/HrushikeshKaranth'>GitHub Profile</a>
                         <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" />
                     </div>
                     <div>
                         <Icon className='icon' icon="logos:linkedin-icon" />
-                        <a target={'_blank'} href='https://www.linkedin.com/in/hrushikesh-h-s-25b78018b/'>My LinkedIn Profile</a>
+                        <a target={'_blank'} href='https://www.linkedin.com/in/hrushikesh-h-s-25b78018b/'>LinkedIn Profile</a>
                         <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" />
                     </div>
                     <div>
                     <Icon className='icon' icon="logos:google-drive" />
-                    <a target={'_blank'} href='https://drive.google.com/open?id=1zHioH76rAoqzCZTRJOjzJGzVftOdnaa-&authuser=hrushikeshkaranth%40gmail.com&usp=drive_fs'>View Resume</a>
+                    <a target={'_blank'} href='https://drive.google.com/open?id=1zHioH76rAoqzCZTRJOjzJGzVftOdnaa-&authuser=hrushikeshkaranth%40gmail.com&usp=drive_fs'>Resume</a>
                     <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" />
                 </div>
                 </div>
@@ -66,7 +66,7 @@ function IntroSection() {
                 </div>
                 <div>
                     <Icon className='icon' icon="logos:google-drive" />
-                    <a target={'_blank'} href='https://drive.google.com/open?id=1zHioH76rAoqzCZTRJOjzJGzVftOdnaa-&authuser=hrushikeshkaranth%40gmail.com&usp=drive_fs'>View Resume</a>
+                    <a target={'_blank'} href='https://drive.google.com/open?id=1zHioH76rAoqzCZTRJOjzJGzVftOdnaa-&authuser=hrushikeshkaranth%40gmail.com&usp=drive_fs'>Resume</a>
                     <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" />
                 </div>
             </div>
