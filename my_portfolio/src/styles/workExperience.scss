@@ -31,7 +31,6 @@
     margin-top: 1rem;
     padding: 1rem;
     border: 3px solid $textColor2;
-    // border-bottom: 3px solid $gGreen;
 }
 .header{
     font-size: 24px;
@@ -171,7 +170,7 @@
     width: 20px;
     height: 20px;
     color: $textColor3;
-    animation: breath 2.5s infinite;
+    // animation: breath 2.5s infinite;
 }
 @media screen and (max-width: 768px) {
     .hide{

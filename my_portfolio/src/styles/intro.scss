@@ -39,12 +39,10 @@
     cursor: pointer;
     transition: all .3s;
     animation: growShrink 1.5s infinite;
-    opacity: 0.3;
 }
 .scrollButton:hover{
     transition: all .3s;
     animation: none;
-    opacity: 1;
 }
 .scrollButton:active{
     transform: scale(110%);
@@ -164,8 +162,8 @@
         background-image: url('../images/profile_photo.jpg');
         background-size: 100% 100%;
         background-color: $textColor2;
-        width: 140px;
-        height: 180px;
+        width: 160px;
+        height: 200px;
         border: 3px solid $textColor1;
         border-radius: 5px;
     }

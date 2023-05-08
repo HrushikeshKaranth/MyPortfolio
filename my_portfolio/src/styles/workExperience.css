@@ -184,7 +184,6 @@
   width: 20px;
   height: 20px;
   color: rgb(228, 131, 149);
-  animation: breath 2.5s infinite;
 }
 
 @media screen and (max-width: 768px) {
