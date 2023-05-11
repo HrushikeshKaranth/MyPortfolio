@@ -27,7 +27,7 @@
 .header {
   font-size: 24px;
   cursor: pointer;
-  color: #34a853;
+  color: #5ca56f;
   width: 100%;
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@
   width: 100%;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
   transition: all 0.3s;
@@ -51,7 +51,7 @@
 
 .company {
   animation: openAnime 0.3s;
-  width: 49%;
+  width: 48.9%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;

@@ -34,7 +34,7 @@
 }
 .educationcard{
     // border: 2px solid $trenaryColor;
-    width: 49%;
+    width: 48.5%;
     @include flexEnd($v: flex-start, $h: flex-start);
     flex-wrap: wrap;
     background-color: $secondaryColor;

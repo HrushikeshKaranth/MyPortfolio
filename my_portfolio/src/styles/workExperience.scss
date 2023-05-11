@@ -45,20 +45,16 @@
 }
 .companies{
     margin-top: 1rem;
-    // border: 2px solid;
-    // padding: .5rem;
     width: 100%;
-    @include flexEnd($v: flex-start, $h: flex-start);
-    // display: flex;
+    @include flexEnd($v: flex-start, $h: space-between);
     gap: 1rem;
     flex-wrap: wrap;
     transition: all .3s;
-    
 }
 .company{
     // border: 2px solid $gGreen;
     animation: openAnime .3s;
-    width: 49%;
+    width: 48.9%;
     @include flexEnd($v: flex-start, $h: flex-start);
     flex-wrap: wrap;
     background-color: $secondaryColor;

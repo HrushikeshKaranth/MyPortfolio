@@ -43,6 +43,7 @@
 }
 .screenshot img {
   width: 50%;
+  height: 18vw;
   border: 5px solid rgb(48, 48, 48);
 }
 

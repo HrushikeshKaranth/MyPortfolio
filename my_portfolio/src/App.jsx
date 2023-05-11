@@ -4,10 +4,12 @@ import IntroSection from "./components/IntroSection";
 import WorkExperience from "./components/WorkExperience";
 import Education from "./components/Education"
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import './styles/intro.css';
 import './styles/workExperience.css';
 import './styles/education.css';
 import './styles/projects.css'
+import './styles/skills.css'
 
 
 function App() {
@@ -37,6 +39,9 @@ function App() {
       </div>
       <div className="projects">
         <Projects/>
+      </div>
+      <div className="skills">
+        <Skills/>
       </div>
       {showScrollButton && <div className='scrollButton' onClick={handleScrollToTop}><Icon icon="material-symbols:arrow-upward-rounded" /></div>}
     </div>

@@ -26,27 +26,45 @@
         opacity: 1;
     }
 }
-.projects{
+
+.skills{
     margin-top: 1rem;
     padding: 1rem;
     border: 3px solid $textColor2;
+    overflow: visible;
 }
-.headerProject{
+.headerSkills{
+    @include flexEnd($v: center, $h: space-between);
+    color: $textColor7;
+    gap: 1rem;
     font-size: 24px;
     cursor: pointer;
-    color: $textColor5;
-    width: 100%;
-    @include flexEnd($v: center, $h: space-between);
-    gap: 1rem;
     span{
         cursor: pointer;
     }
 }
-.screenshot{
+.skillSection{
+    margin-top: 1rem;
     width: 100%;
-    img{
-        width: 50%;
-        height: 18vw;
-        border: 5px solid $primaryColor;
+    @include flexEnd($v: flex-start, $h: flex-start);
+    gap: 1rem;
+    flex-wrap: wrap;
+    transition: all .3s;
+}
+.skill{
+    border-radius: 5px;
+    background-color: $secondaryColor;
+    @include flexEnd($v: center, $h: flex-start);
+    gap: 1rem;
+    padding: .5rem;
+    span{
+        width: fit-content;
+        font-weight: 500;
+        color: $textColor1;
+        font-size: 16px;
     }
+}
+.skillIcon{
+    width: 36px;
+    height: 36px;
 }
