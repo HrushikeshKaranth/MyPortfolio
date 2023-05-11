@@ -92,5 +92,46 @@
             "linkedin":"",
             "logo":"http://www.bgspugurupurashimoga.org/img/faviconBGS.png"   
         }
+    ],
+    "projects":[
+        {
+            "id":1,
+            "name":"Sound Wave",
+            "description":"A web based Music Player App.",
+            "screenshot":"sound_wave.png",
+            "notes":[
+                "Music Player with Play ▶, Pause ⏸, Loop 🔁 functionalities.",
+                "Upload your Music files 🎶, listen to it and Enjoy 😍",
+                "Developed using HTML, CSS, Javascript."
+            ],
+            "link":"https://hrushis-web-music-player.netlify.app/",
+            "logo":"https://hrushis-web-music-player.netlify.app/images/Logo.png"   
+        },
+        {
+            "id":2,
+            "name":"Netflix Clone",
+            "description":"A landing page clone of Netflix.",
+            "screenshot":"netflix.png",
+            "notes":[
+                "A landing page clone of Netflix with realtime info from TMDB database.",
+                "Has used API's to fetch the data from the TMDB database.",
+                "Developed using React JS, Axios."
+            ],
+            "link":"https://hrushis-netflix-clone.netlify.app/",
+            "logo":"https://hrushis-netflix-clone.netlify.app/static/media/netflixLogo.9f35886b11f48a48b837.png"   
+        },
+        {
+            "id":3,
+            "name":"Task Management",
+            "description":"A simple Task assigining app.",
+            "screenshot":"task_management.png",
+            "notes":[
+                "Project features all the CRUD functionalities, Login validations, API's using Flask, MVC architecture, ORM.",
+                "In this project Admin can assign task to users and users can check the assigned tasks when they login.",
+                "Developed using React JS, MySQL, Flask"
+            ],
+            "link":"https://github.com/HrushikeshKaranth/Task-Management-app",
+            "logo":""   
+        }
     ]
 }

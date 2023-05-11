@@ -3,9 +3,11 @@ import { Icon } from '@iconify/react';
 import IntroSection from "./components/IntroSection";
 import WorkExperience from "./components/WorkExperience";
 import Education from "./components/Education"
+import Projects from "./components/Projects";
 import './styles/intro.css';
 import './styles/workExperience.css';
 import './styles/education.css';
+import './styles/projects.css'
 
 
 function App() {
@@ -32,6 +34,9 @@ function App() {
       </div>
       <div className="education">
         <Education/>
+      </div>
+      <div className="projects">
+        <Projects/>
       </div>
       {showScrollButton && <div className='scrollButton' onClick={handleScrollToTop}><Icon icon="material-symbols:arrow-upward-rounded" /></div>}
     </div>

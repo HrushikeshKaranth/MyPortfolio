@@ -6,11 +6,11 @@ function WorkExperience() {
   let item = useRef()
   const [data, setData] = useState(workdata.data)
   const [showWorkExperience, setShowWorkExperience] = useState(false)
-  useEffect(()=>{
+  useEffect(() => {
     try {
-      showWorkExperience?item.current.style='transform:rotate(-180deg)':item.current.style='transform:rotate(0deg)'
-    } catch (error) {}
-},[showWorkExperience])
+      showWorkExperience ? item.current.style = 'transform:rotate(-180deg)' : item.current.style = 'transform:rotate(0deg)'
+    } catch (error) { }
+  }, [showWorkExperience])
   // const [showDesc, setShowDesc] = useState(false)
   return (
     <>
