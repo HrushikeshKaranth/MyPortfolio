@@ -31,7 +31,9 @@ function Projects() {
                             return (
                                 <div className='company' key={data.id}>
                                     <div className='companyName'>
-                                        <div className='companyLogo'>{data.logo &&<img src={data.logo} alt={data.name} />}</div>
+                                        <div className='companyLogo'>{
+                                        data.logo ? <img src={data.logo} alt={data.name} />: 
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/2048px-Solid_white.svg.png" alt="no Logo" /> }</div>
                                         <>
                                             <span className='nameAndLinkedin'>
                                                 <span>{data.name}</span>

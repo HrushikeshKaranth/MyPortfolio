@@ -145,6 +145,7 @@
   margin-bottom: 1rem;
 }
 .companyLogo img {
+  background-color: rgb(37, 37, 37);
   height: 50px;
 }
 

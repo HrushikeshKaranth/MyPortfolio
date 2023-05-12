@@ -18,7 +18,7 @@
             "locationUrl":"https://www.google.com/maps/place/Religh+Technologies+-+Best+Web+Development+and+Digital+Marketing+Company+in+Bangalore/@13.0149436,77.5486915,726m/data=!3m3!1e3!4b1!5s0x3bae3d79ef3864ef:0xc56defce19104cfe!4m6!3m5!1s0x3bae3de1acf267c1:0xa2aeb972709a94b4!8m2!3d13.0149384!4d77.5512664!16s%2Fg%2F11t147wkv_",
             "website":"https://www.relightechnologies.com/",
             "linkedin":"https://www.linkedin.com/company/religh-technologies/mycompany/",
-            "logo":"https://cdn-incpj.nitrocdn.com/lVjWVPHymomsdHyozhuvwmeDraPPaUSd/assets/images/optimized/rev-9a85456/assets/img/Religh-Logo.png"
+            "logo":"https://www.relightechnologies.com/assets/img/Religh-Logo.png"
         },
         {
             "id":2,
@@ -127,11 +127,25 @@
             "screenshot":"task_management.png",
             "notes":[
                 "Project features all the CRUD functionalities, Login validations, API's using Flask, MVC architecture, ORM.",
-                "In this project Admin can assign task to users and users can check the assigned tasks when they login.",
+                "In this project, Admin can assign task to users and users can check the assigned tasks when they login.",
                 "Developed using React JS, MySQL, Flask"
             ],
             "link":"https://github.com/HrushikeshKaranth/Task-Management-app",
             "logo":""   
+        },
+        {
+            "id":4,
+            "name":"Black Luxury",
+            "description":"A luxury car rental web app.",
+            "screenshot":"blckluxury.png",
+            "notes":[
+                "In this realtime project, Customer can rent a luxury car from the list based on the location.",
+                "Project features all the CRUD functionalities, Login validations, API's using Flask, MVC architecture, ORM.",
+                "Razer pay integration for payment gateway.",
+                "Developed using React JS, Flask, MySQL."
+            ],
+            "link":"https://blckluxury.com/",
+            "logo":"https://blckluxury.com/static/media/logo-big.06a5ae1887e41e07aec0.png"   
         }
     ],
     "skills":[
@@ -179,6 +193,11 @@
             "id":9,
             "name":"CSS3",
             "icon":"skill-icons:css"
+        },
+        {
+            "id":23,
+            "name":"Sass",
+            "icon":"logos:sass"
         },
         {
             "id":19,
