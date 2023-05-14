@@ -43,7 +43,7 @@
     padding: 1rem;
     position: relative;
     animation: openAnime .3s;
-    // animation: openAnimeHeight 1.5s;
+    transition: all .3s;
     ul{
         @include flexEnd($v: flex-start, $h: flex-start);
         flex-direction: column;

@@ -33,13 +33,13 @@ function Projects() {
                                     <div className='companyName'>
                                         <div className='companyLogo'>{
                                         data.logo ? <img src={data.logo} alt={data.name} />: 
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/2048px-Solid_white.svg.png" alt="no Logo" /> }</div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png" alt="no Logo" /> }</div>
                                         <>
                                             <span className='nameAndLinkedin'>
                                                 <span>{data.name}</span>
                                             </span>
                                             <div className='projectDescription'>
-                                                <p>- {data.description}</p>
+                                                <p>- {data.description}{' '} <text style={data.working == 'Completed'?{color:'#5ca56f'}:{color:'#f36b5f'}}>({data.working})</text> </p>
                                             </div>
                                         </>
                                     </div>

@@ -16,8 +16,8 @@
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  border: 2px solid rgb(110, 163, 224);
-  color: rgb(110, 163, 224);
+  border: 2px solid #6ea3e0;
+  color: #6ea3e0;
   background-color: black;
   width: 50px;
   height: 50px;
@@ -108,13 +108,13 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-bottom: 3px solid rgb(110, 163, 224);
+  border-bottom: 3px solid #6ea3e0;
 }
 
 .myName {
   font-size: 44px;
   font-weight: 500;
-  color: rgb(110, 163, 224);
+  color: #6ea3e0;
   width: 100%;
 }
 
@@ -141,13 +141,13 @@
   justify-content: flex-start;
   padding: 1rem;
   line-height: 2rem;
-  border-bottom: 3px solid rgb(110, 163, 224);
+  border-bottom: 3px solid #6ea3e0;
 }
 
 .profilePhoto div {
   background-image: url("../images/profile_photo.jpg");
   background-size: 100% 100%;
-  background-color: rgb(110, 163, 224);
+  background-color: #6ea3e0;
   width: 160px;
   height: 200px;
   border: 3px solid rgb(212, 212, 212);
@@ -166,8 +166,8 @@
   position: fixed;
   top: 1rem;
   right: 1rem;
-  border: 2px solid rgb(110, 163, 224);
-  color: rgb(110, 163, 224);
+  border: 2px solid #6ea3e0;
+  color: #6ea3e0;
   background-color: black;
   width: 40px;
   height: 40px;
@@ -187,7 +187,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 1.5rem;
-  border-left: 3px solid rgb(110, 163, 224);
+  border-left: 3px solid #6ea3e0;
   padding: 0 2rem;
 }
 .socialLinksDesktop div {
@@ -209,7 +209,7 @@
 .socialLinksDesktop div a {
   font-size: 16px;
   text-decoration: none;
-  color: rgb(110, 163, 224);
+  color: #6ea3e0;
   font-weight: 400;
 }
 
@@ -220,7 +220,7 @@
   display: none;
   flex-direction: column;
   gap: 2rem;
-  border-left: 5px solid rgb(110, 163, 224);
+  border-left: 5px solid #6ea3e0;
   padding: 0 2rem;
 }
 .socialLinks div {
@@ -242,7 +242,7 @@
 .socialLinks div a {
   font-size: 16px;
   text-decoration: none;
-  color: rgb(110, 163, 224);
+  color: #6ea3e0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -251,12 +251,12 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border-bottom: 3px solid rgb(110, 163, 224);
+    border-bottom: 3px solid #6ea3e0;
   }
   .myName {
     font-size: 28px;
     font-weight: 400;
-    color: rgb(110, 163, 224);
+    color: #6ea3e0;
     width: 100%;
   }
   .jobProfile {
@@ -280,12 +280,12 @@
     align-items: center;
     justify-content: flex-start;
     padding: 1rem;
-    border-bottom: 3px solid rgb(110, 163, 224);
+    border-bottom: 3px solid #6ea3e0;
   }
   .profilePhoto div {
     background-image: url("../images/profile_photo.jpg");
     background-size: 100% 100%;
-    background-color: rgb(110, 163, 224);
+    background-color: #6ea3e0;
     width: 100px;
     height: 120px;
     border: 3px solid rgb(212, 212, 212);
@@ -305,7 +305,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-    border-left: 3px solid rgb(110, 163, 224);
+    border-left: 3px solid #6ea3e0;
     padding: 0 2rem;
   }
   .socialLinksDesktop div {
@@ -334,12 +334,12 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border-bottom: 2px solid rgb(110, 163, 224);
+    border-bottom: 2px solid #6ea3e0;
   }
   .profilePhoto div {
     background-image: url("../images/profile_photo.jpg");
     background-size: 100% 100%;
-    background-color: rgb(110, 163, 224);
+    background-color: #6ea3e0;
     width: 140px;
     height: 160px;
     border: 3px solid rgb(212, 212, 212);
@@ -371,7 +371,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    border-bottom: 2px solid rgb(110, 163, 224);
+    border-bottom: 2px solid #6ea3e0;
   }
   .socialLinks {
     width: 100%;
@@ -396,7 +396,7 @@
     font-size: 16px;
   }
   .intro {
-    border: 3px solid rgb(110, 163, 224);
+    border: 3px solid #6ea3e0;
   }
 }
 @media screen and (max-width: 425px) {
@@ -405,12 +405,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid rgb(110, 163, 224);
+    border-bottom: 2px solid #6ea3e0;
   }
   .profilePhoto div {
     background-image: url("../images/profile_photo.jpg");
     background-size: 100% 100%;
-    background-color: rgb(110, 163, 224);
+    background-color: #6ea3e0;
     width: 100px;
     height: 120px;
     border: 3px solid rgb(212, 212, 212);
@@ -443,7 +443,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    border-bottom: 2px solid rgb(110, 163, 224);
+    border-bottom: 2px solid #6ea3e0;
   }
   .socialLinks {
     width: 100%;
@@ -469,7 +469,7 @@
     font-weight: 300;
   }
   .intro {
-    border: 3px solid rgb(110, 163, 224);
+    border: 3px solid #6ea3e0;
   }
 }
 @media screen and (max-width: 375px) {

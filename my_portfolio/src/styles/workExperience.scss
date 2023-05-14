@@ -39,6 +39,7 @@
     width: 100%;
     @include flexEnd($v: center, $h: space-between);
     gap: 1rem;
+    transition: all .3s;
     span{
         cursor: pointer;
     }

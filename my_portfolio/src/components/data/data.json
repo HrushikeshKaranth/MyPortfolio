@@ -61,7 +61,7 @@
         },
         {
             "id":2,
-            "companyName":"DSDNP",
+            "companyName":"DSDN Polytechnic",
             "address":"Shimoga, Karnataka, India",
             "from":"06/2015",
             "to":"05/2018",
@@ -98,6 +98,7 @@
             "id":1,
             "name":"Sound Wave",
             "description":"A web based Music Player App.",
+            "working":"Completed",
             "screenshot":"sound_wave.png",
             "notes":[
                 "Music Player with Play ▶, Pause ⏸, Loop 🔁 functionalities.",
@@ -111,6 +112,7 @@
             "id":2,
             "name":"Netflix Clone",
             "description":"A landing page clone of Netflix.",
+            "working":"Completed",
             "screenshot":"netflix.png",
             "notes":[
                 "A landing page clone of Netflix with realtime info from TMDB database.",
@@ -124,6 +126,7 @@
             "id":3,
             "name":"Task Management",
             "description":"A simple Task assigining app.",
+            "working":"Completed",
             "screenshot":"task_management.png",
             "notes":[
                 "Project features all the CRUD functionalities, Login validations, API's using Flask, MVC architecture, ORM.",
@@ -137,6 +140,7 @@
             "id":4,
             "name":"Black Luxury",
             "description":"A luxury car rental web app.",
+            "working":"Work in progress",
             "screenshot":"blckluxury.png",
             "notes":[
                 "In this realtime project, Customer can rent a luxury car from the list based on the location.",
@@ -145,7 +149,7 @@
                 "Developed using React JS, Flask, MySQL."
             ],
             "link":"https://blckluxury.com/",
-            "logo":"https://blckluxury.com/static/media/logo-big.06a5ae1887e41e07aec0.png"   
+            "logo":""   
         }
     ],
     "skills":[

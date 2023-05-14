@@ -21,7 +21,7 @@
 .workExperience {
   margin-top: 1rem;
   padding: 1rem;
-  border: 3px solid rgb(110, 163, 224);
+  border: 3px solid #6ea3e0;
 }
 
 .header {
@@ -33,6 +33,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  transition: all 0.3s;
 }
 .header span {
   cursor: pointer;
@@ -99,7 +100,7 @@
 }
 .companyName a {
   text-decoration: none;
-  color: rgb(110, 163, 224);
+  color: #6ea3e0;
 }
 .companyName span {
   display: flex;
@@ -108,7 +109,7 @@
   gap: 1rem;
   font-size: 24px;
   font-weight: 500;
-  color: rgb(110, 163, 224);
+  color: #6ea3e0;
 }
 .companyName span .icon {
   display: flex;
@@ -124,7 +125,7 @@
   gap: 0.5rem;
   font-size: 14px;
   font-weight: 300;
-  color: rgb(110, 163, 224);
+  color: #6ea3e0;
 }
 .companyName div a {
   display: flex;
@@ -162,7 +163,7 @@
   background-color: rgb(48, 48, 48);
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  color: rgb(110, 163, 224);
+  color: #6ea3e0;
   font-size: 20px;
   font-weight: 500;
 }
