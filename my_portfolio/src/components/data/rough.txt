@@ -1,0 +1,20 @@
+        {
+            "id":1,
+            "companyName":"Doozie Software Solutions",
+            "address":"Bengaluru, Karnataka, India",
+            "from":"07/2021",
+            "to":"Present",
+            "workTime":"Full Time",
+            "jobTitle":"Full Stack Developer",
+            "tasks":[
+                "Understand client requirements and execute on design.",
+                "Adhere to key design principles.",
+                "Optimize pages for speed, scalability, and mobile use.",
+                "Co-ordinate with the team and build reusable code.",
+                "Skills: React JS, Javascript, MySQL, Flask, REST API, Python, CSS3, HTML5, GitHub"
+            ],
+            "locationUrl":"https://www.google.com/maps/place/Doozie+Software+Solutions/@12.9476777,77.5402551,16.61z/data=!4m6!3m5!1s0x3bae3e12532df549:0x93f513cbff80d8e1!8m2!3d12.94795!4d77.542581!16s%2Fg%2F12ltdcm2d",
+            "website":"https://www.dooziesoft.com/",
+            "linkedin":"https://www.linkedin.com/in/dooziesoft/?originalSubdomain=in",
+            "logo":"https://dooziesoft.com/website/images/doozie_logo.png"
+        },
