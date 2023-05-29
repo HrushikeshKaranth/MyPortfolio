@@ -35,13 +35,16 @@
 }
 .headerSkills{
     @include flexEnd($v: center, $h: space-between);
-    color: $textColor7;
+    color: $trenaryColor;
     gap: 1rem;
     font-size: 24px;
     cursor: pointer;
     span{
         cursor: pointer;
     }
+}
+.headerSkills:hover{
+    color: white;
 }
 .skillSection{
     margin-top: 1rem;

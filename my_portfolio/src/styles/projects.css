@@ -27,7 +27,7 @@
 .headerProject {
   font-size: 24px;
   cursor: pointer;
-  color: rgb(138, 87, 187);
+  color: rgb(193, 177, 207);
   width: 100%;
   display: flex;
   align-items: center;
@@ -36,6 +36,10 @@
 }
 .headerProject span {
   cursor: pointer;
+}
+
+.headerProject:hover {
+  color: white;
 }
 
 .screenshot {

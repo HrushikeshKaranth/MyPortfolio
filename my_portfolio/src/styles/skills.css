@@ -29,13 +29,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgb(209, 103, 143);
+  color: rgb(193, 177, 207);
   gap: 1rem;
   font-size: 24px;
   cursor: pointer;
 }
 .headerSkills span {
   cursor: pointer;
+}
+
+.headerSkills:hover {
+  color: white;
 }
 
 .skillSection {

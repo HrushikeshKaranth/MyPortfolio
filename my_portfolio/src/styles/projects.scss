@@ -34,13 +34,16 @@
 .headerProject{
     font-size: 24px;
     cursor: pointer;
-    color: $textColor5;
+    color: $trenaryColor;
     width: 100%;
     @include flexEnd($v: center, $h: space-between);
     gap: 1rem;
     span{
         cursor: pointer;
     }
+}
+.headerProject:hover{
+    color: white;
 }
 .screenshot{
     width: 100%;
