@@ -30,7 +30,7 @@ function WorkExperience() {
               return (
                 <div className='company' key={data.id}>
                   <div className='companyName'>
-                    <div className='companyLogo'><img src={data.logo} alt={data.companyName} /></div>
+                    <div className='companyLogo'><img src={require(`../images/${data.logo}`)} alt={data.companyName} /></div>
                     <>
                       <span className='nameAndLinkedin'>
                         <span>{data.companyName}</span>

@@ -52,12 +52,12 @@ function Education() {
                   </div>
                   <div className='jobTitle'>{data.jobTitle}</div>
                   <div className='description'>
-                    <span className='hide'>Academic Details:</span>
-                    <ul className='hide'>
+                    <span>Academic Details:</span>
+                    <ul>
                       {
                         data.tasks.map((list, i) => {
                           return (
-                            <li className='hide' key={i}>{list}</li>
+                            <li key={i}>{list}</li>
                           )
                         })
                       }
