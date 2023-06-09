@@ -18,3 +18,24 @@
             "linkedin":"https://www.linkedin.com/in/dooziesoft/?originalSubdomain=in",
             "logo":"https://dooziesoft.com/website/images/doozie_logo.png"
         },
+
+        {
+            "id":1,
+            "companyName":"RELIGH TECHNOLOGIES",
+            "address":"Bengaluru, Karnataka, India",
+            "from":"01/2021",
+            "to":"05/2021",
+            "workTime":"Full Time",
+            "jobTitle":"Junior Fullstack Developer",
+            "tasks":[
+                "Understand client requirements and execute on design.",
+                "Adhere to key design principles.",
+                "Optimize pages for speed, scalability, and mobile use.",
+                "Co-ordinate with the team and build reusable code.",
+                "Skills: React JS, Javascript, MySQL, Flask, REST API, Python, CSS3, HTML5, GitHub"
+            ],
+            "locationUrl":"https://www.google.com/maps/place/Religh+Technologies+-+Best+Web+Development+and+Digital+Marketing+Company+in+Bangalore/@13.0149384,77.5512664,15z/data=!4m6!3m5!1s0x3bae3de1acf267c1:0xa2aeb972709a94b4!8m2!3d13.0149384!4d77.5512664!16s%2Fg%2F11t147wkv_?entry=ttu",
+            "website":"https://www.relightechnologies.com/",
+            "linkedin":"https://www.linkedin.com/company/religh-technologies/",
+            "logo":"Religh-Logo.png"
+        },
