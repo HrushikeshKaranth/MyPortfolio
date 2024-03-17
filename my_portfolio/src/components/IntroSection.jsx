@@ -23,8 +23,8 @@ function IntroSection() {
             </div>
             <p className='bio'>
                 - A Creative Developer, Fast learner, Consistent worker with nearly a year
-                experience 😇 in Full Stack Web Development.<br />
-                - A Full Stack Developer with a very good eye for Design 🎨. I have developed some exciting web applications in various domains.<br />
+                experience 😇 in Full Stack Development.<br />
+                - A Full Stack Developer with a very good eye for Design 🎨. I have developed some exciting applications in various domains.<br />
                 - Building pixel 🔳 perfect UI with intuitive functionalities and robust backend are my core experience.</p>
             <div className='socialLinks'>
                 <SocialLinks />
