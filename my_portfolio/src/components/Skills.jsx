@@ -5,7 +5,7 @@ import workdata from './data/data.json'
 function Skills() {
     let item = useRef()
     const [data, setData] = useState(workdata.skills)
-    const [showSkills, setShowSkills] = useState(false)
+    const [showSkills, setShowSkills] = useState(true)
     useEffect(() => {
         try {
             showSkills ? item.current.style = 'transform:rotate(-180deg)' : item.current.style = 'transform:rotate(0deg)'

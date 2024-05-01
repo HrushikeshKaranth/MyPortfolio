@@ -10,6 +10,7 @@ import './styles/workExperience.css';
 import './styles/education.css';
 import './styles/projects.css'
 import './styles/skills.css'
+import SkillsV2 from "./components/SkillsV2";
 
 
 function App() {
@@ -40,8 +41,11 @@ function App() {
       <div className="projects">
         <Projects/>
       </div>
-      <div className="skills">
+      {/* <div className="skills">
         <Skills/>
+      </div> */}
+      <div className="skills">
+        <SkillsV2/>
       </div>
       {showScrollButton && <div className='scrollButton' onClick={handleScrollToTop}><Icon icon="material-symbols:arrow-upward-rounded" /></div>}
     </div>

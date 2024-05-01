@@ -5,7 +5,7 @@ import workdata from './data/data.json'
 function WorkExperience() {
   let item = useRef()
   const [data, setData] = useState(workdata.data)
-  const [showWorkExperience, setShowWorkExperience] = useState(false)
+  const [showWorkExperience, setShowWorkExperience] = useState(true)
   useEffect(() => {
     try {
       showWorkExperience ? item.current.style = 'transform:rotate(-180deg)' : item.current.style = 'transform:rotate(0deg)'

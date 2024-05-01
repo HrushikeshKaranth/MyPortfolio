@@ -6,7 +6,7 @@ function Projects() {
     let item = useRef()
     const [data, setData] = useState(workdata.projects)
     console.log(data);
-    const [showProjects, setShowProjects] = useState(false)
+    const [showProjects, setShowProjects] = useState(true)
     useEffect(() => {
         try {
             showProjects ? item.current.style = 'transform:rotate(-180deg)' : item.current.style = 'transform:rotate(0deg)'
