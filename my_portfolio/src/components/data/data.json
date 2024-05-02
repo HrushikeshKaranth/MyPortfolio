@@ -234,5 +234,158 @@
             "name": "VS Code",
             "icon": "logos:visual-studio-code"
         }
+    ],
+    "skillsv2": [
+        {
+            "OS": [
+                {
+                    "id": 1,
+                    "name": "Windows",
+                    "icon": "devicon:windows11"
+                },
+                {
+                    "id": 2,
+                    "name": "Ubuntu",
+                    "icon": "logos:ubuntu"
+                },
+                {
+                    "id": 3,
+                    "name": "Linux",
+                    "icon": "skill-icons:linux-light"
+                }
+            ],
+            "languages": [
+                {
+                    "id": 1,
+                    "name": "Java",
+                    "icon": "logos:java"
+                },
+                {
+                    "id": 2,
+                    "name": "Javascript",
+                    "icon": "logos:javascript"
+                },
+                {
+                    "id": 3,
+                    "name": "Python",
+                    "icon": "logos:python"
+                },
+                {
+                    "id": 4,
+                    "name": "C",
+                    "icon": "logos:c"
+                }
+            ],
+            "frameworks": [
+                {
+                    "id": 1,
+                    "name": "Spring Boot",
+                    "icon": "logos:spring-icon"
+                },
+                {
+                    "id": 2,
+                    "name": "React JS",
+                    "icon": "logos:react"
+                },
+                {
+                    "id": 3,
+                    "name": "Flask",
+                    "icon": "skill-icons:flask-light"
+                }
+            ],
+            "bugTracking": [
+                {
+                    "id": 1,
+                    "name": "Jira",
+                    "icon": "logos:jira"
+                }
+            ],
+            "cloudService": [
+                {
+                    "id": 1,
+                    "name": "Amazon Web Services",
+                    "icon": "logos:aws"
+                }
+            ],
+            "buildTools": [
+                {
+                    "id": 1,
+                    "name": "ANT",
+                    "icon": "simple-icons:apacheant"
+                },
+                {
+                    "id": 2,
+                    "name": "Maven",
+                    "icon": "skill-icons:maven-light"
+                }
+            ],
+            "cicd": [
+                {
+                    "id": 1,
+                    "name": "Jenkins",
+                    "icon": "skill-icons:jenkins-light"
+                }
+            ],
+            "automation": [
+                {
+                    "id": 1,
+                    "name": "Chef",
+                    "icon": "vscode-icons:file-type-chef"
+                },
+                {
+                    "id": 2,
+                    "name": "Ansible",
+                    "icon": "devicon-plain:ansible-wordmark"
+                }
+            ],
+            "db": [
+                {
+                    "id": 1,
+                    "name": "MySQL",
+                    "icon": "logos:mysql"
+                },
+                {
+                    "id": 2,
+                    "name": "Oracle",
+                    "icon": "logos:oracle"
+                }
+            ],
+            "servers": [
+                {
+                    "id": 1,
+                    "name": "Apache Tomcat",
+                    "icon": "logos:tomcat"
+                }
+            ],
+            "scmvc": [
+                {
+                    "id": 1,
+                    "name": "Git",
+                    "icon": "logos:git-icon"
+                },
+                {
+                    "id":2,
+                    "name": "GitHub",
+                    "icon": "mdi:github"
+                },
+                {
+                    "id": 3,
+                    "name": "Subversion",
+                    "icon": "logos:subversion"
+                }
+            ],
+            "containerization": [
+                {
+                    "id": 1,
+                    "name": "Docker",
+                    "icon": "skill-icons:docker"
+                },
+                {
+                    "id":2,
+                    "name": "Kubernetes",
+                    "icon": "skill-icons:kubernetes"
+                }
+            ]
+        }
     ]
 }

@@ -4,7 +4,7 @@ import workdata from './data/data.json'
 
 function Education() {
     const [data, setData] = useState(workdata.education)
-    const [showEducation, setshowEducation] = useState(false)
+    const [showEducation, setshowEducation] = useState(true)
     let item = useRef()
     const [showDesc, setShowDesc] = useState(false)
     useEffect(()=>{
