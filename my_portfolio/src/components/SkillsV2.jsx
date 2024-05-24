@@ -186,7 +186,7 @@ function SkillsV2() {
                 }
             </div>
             <br />
-            <span><b>Infrastructure As Code:</b></span>
+            <span><b>Infrastructure as a Code:</b></span>
             <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                 {
                     data[0].iaas.map((data) => {
