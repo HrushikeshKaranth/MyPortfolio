@@ -30,8 +30,8 @@
 .workExperience{
     margin-top: 1rem;
     padding: 1rem;
-    border-top: 2px solid $textColor2;
-    border-bottom: 2px solid $textColor2;
+    border-top: 2px solid $textColor1;
+    border-bottom: 2px solid $textColor1;
 }
 .header{
     font-size: 24px;
@@ -98,14 +98,14 @@
     margin-bottom: 1rem;
     a{
         text-decoration: none;
-        color: $textColor2;
+        color: $textColor1;
     }
     span{
         @include flexEnd($v: center, $h: flex-start);
         gap: 1rem;
         font-size: 24px;
         font-weight: 500;
-        color: $textColor2;
+        color: $textColor1;
         .icon{
             @include flexEnd($v: center, $h: center);
             width: 24px;
@@ -117,7 +117,7 @@
         gap: .5rem;
         font-size: 14px;
         font-weight: 300;
-        color: $textColor2;
+        color: $textColor1;
         a{
             @include flexEnd($v: flex-start, $h: flex-start);
             gap: .3rem;
@@ -151,7 +151,7 @@
     background-color: $primaryColor;
     padding: .5rem 1rem;
     border-radius: 5px;
-    color: $textColor2;
+    color: $textColor1;
     font-size: 20px;
     font-weight: 500;
 }
@@ -171,7 +171,7 @@
 .breath{
     width: 20px;
     height: 20px;
-    color: $textColor3;
+    color: $textColor1;
     // animation: breath 2.5s infinite;
 }
 @media screen and (max-width: 768px) {

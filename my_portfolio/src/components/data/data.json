@@ -2,7 +2,7 @@
     "data": [
         {
             "id": 1,
-            "companyName": "UNITRANS INFOTECH PVT LTD",
+            "companyName": "UNITRANS INFOTECH",
             "address": "Bengaluru, Karnataka, India",
             "from": "07/2021",
             "to": "Present",
@@ -18,7 +18,7 @@
             "locationUrl": "https://www.google.com/maps/dir//235,+2nd+%26+3rd+Floor,+13th+Cross+Rd,+2nd+Stage,+Indiranagar,+Bengaluru,+Karnataka+560038/@12.9753908,77.5532149,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae17415dfd3751:0x58445f273315e6dc!2m2!1d77.6356168!2d12.9754038?entry=ttu",
             "website": "https://infotechpages.com/",
             "linkedin": "https://www.linkedin.com/in/unitrans-infotech-1b169953/",
-            "logo": "unitranslogo.png"
+            "logo": "unitranslogo-light.png"
         }
     ],
     "education": [

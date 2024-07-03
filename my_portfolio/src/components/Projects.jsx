@@ -5,7 +5,7 @@ import workdata from './data/data.json'
 function Projects() {
     let item = useRef()
     const [data, setData] = useState(workdata.projects)
-    console.log(data);
+    // console.log(data);
     const [showProjects, setShowProjects] = useState(true)
     useEffect(() => {
         try {

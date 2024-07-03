@@ -26,13 +26,23 @@
         opacity: 1;
     }
 }
-
+.skillsMain{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+}
 .skills{
     margin-top: 1rem;
     padding: 1rem;
-    border-top: 2px solid $textColor2;
-    border-bottom: 2px solid $textColor2;
+    border-top: 2px solid $textColor1;
+    border-bottom: 2px solid $textColor1;
     overflow: visible;
+}
+.skillsCard{
+    background-color: $headerColor2;
+    padding: .5rem;
+    border-radius: 5px;
 }
 .headerSkills{
     @include flexEnd($v: center, $h: space-between);
@@ -48,10 +58,10 @@
 //     color: white;
 // }
 .skillSection{
-    margin-top: 1rem;
+    margin-top: .5rem;
     width: 100%;
     @include flexEnd($v: flex-start, $h: flex-start);
-    gap: 1rem;
+    gap: .5rem;
     flex-wrap: wrap;
     transition: all .3s;
 }
