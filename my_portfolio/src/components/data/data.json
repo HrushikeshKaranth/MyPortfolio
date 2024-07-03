@@ -2,12 +2,12 @@
     "data": [
         {
             "id": 1,
-            "companyName": "CODEPROOFS PVT LTD",
+            "companyName": "UNITRANS INFOTECH PVT LTD",
             "address": "Bengaluru, Karnataka, India",
-            "from": "01/2021",
-            "to": "06/2021",
-            "workTime": "Internship",
-            "jobTitle": "Python Developer",
+            "from": "07/2021",
+            "to": "Present",
+            "workTime": "Full Time",
+            "jobTitle": "DevOps Engineer",
             "tasks": [
                 "Writing effective, scalable code.",
                 "Develop back-end components, Wrote Flask API's to improve overall performance.",
@@ -15,10 +15,10 @@
                 "Attended meetings with clients.",
                 "Skills: Python, Flask, REST API"
             ],
-            "locationUrl": "https://www.google.com/maps/place/codeproofs+Private+Limited/@12.9188727,77.5901392,727m/data=!3m3!1e3!4b1!5s0x3bae1509087e3499:0xb2c338409cd0a0b8!4m6!3m5!1s0x3bae1504bc3fd813:0xdb6041eb83be111f!8m2!3d12.9188675!4d77.5927141!16s%2Fg%2F11frnl0vq0",
-            "website": "",
-            "linkedin": "https://www.linkedin.com/company/codeproofs-private-limited/about/",
-            "logo": "codeproofslogo.jpg"
+            "locationUrl": "https://www.google.com/maps/dir//235,+2nd+%26+3rd+Floor,+13th+Cross+Rd,+2nd+Stage,+Indiranagar,+Bengaluru,+Karnataka+560038/@12.9753908,77.5532149,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae17415dfd3751:0x58445f273315e6dc!2m2!1d77.6356168!2d12.9754038?entry=ttu",
+            "website": "https://infotechpages.com/",
+            "linkedin": "https://www.linkedin.com/in/unitrans-infotech-1b169953/",
+            "logo": "unitranslogo.png"
         }
     ],
     "education": [
@@ -27,7 +27,7 @@
             "companyName": "PES UNIVERSITY",
             "address": "Bengaluru, Karnataka, India",
             "from": "08/2018",
-            "to": "11/2021",
+            "to": "07/2021",
             "workTime": "Full Time",
             "jobTitle": "B. Tech in Computer Science",
             "tasks": [
@@ -37,14 +37,14 @@
             "locationUrl": "https://www.google.com/maps/place/PES+University/@12.9352711,77.5342966,727m/data=!3m1!1e3!4m6!3m5!1s0x3bae3e468d8d36d3:0x694d74f6ac640acf!8m2!3d12.93538!4d77.5358251!16zL20vMDYwcjB3",
             "website": "https://pes.edu/",
             "linkedin": "https://www.linkedin.com/school/pesuniversity/",
-            "logo": "https://pes.edu/wp-content/uploads/2022/09/PESU-new-logo.png"
+            "logo": "pesu-logo.png"
         }
     ],
     "projects": [
         {
             "id": 1,
-            "name": "Sound Wave",
-            "description": "A web based Music Player App.",
+            "name": "Beghou Life Science and Consulting, US",
+            "description": "Beghou Life Sciences and Consulting is an American health and life science consulting firm dealing with health, diagnostics, and life science research. The company specializes in detection, imaging, health informatics, and services. Beghou produces analytical instruments, testing and diagnostics tools, imaging components, software, instruments, and consumables for multiple end markets.",
             "working": "Completed",
             "screenshot": "sound_wave.png",
             "notes": [
@@ -52,13 +52,13 @@
                 "Upload your Music files 🎶, listen to it and Enjoy 😍",
                 "Developed using HTML, CSS, Javascript."
             ],
-            "link": "https://hrushis-web-music-player.netlify.app/",
-            "logo": "https://hrushis-web-music-player.netlify.app/images/Logo.png"
+            "link": "https://beghouconsulting.com/",
+            "logo": "Beghou-Logo-Light.png"
         },
         {
             "id": 2,
-            "name": "Netflix Clone",
-            "description": "A landing page clone of Netflix.",
+            "name": "Skipton Mortgages, UK",
+            "description": "Skipton Mortgages specializes in mortgage processing in the UK. The company services are based on software used as a service model that narrows down and automates the originating and sourcing of funds for new mortgage loans and thus facilitates regulatory compliance.",
             "working": "Completed",
             "screenshot": "netflix.png",
             "notes": [
@@ -66,13 +66,13 @@
                 "Has used API's to fetch the data from the TMDB database.",
                 "Developed using React JS, Axios."
             ],
-            "link": "https://github.com/HrushikeshKaranth/Netflix-Landing-Page-Clone",
-            "logo": ""
+            "link": "https://www.skipton.co.uk/",
+            "logo": "skipton-logo.svg"
         },
         {
             "id": 3,
-            "name": "Task Management",
-            "description": "A simple Task assigining app.",
+            "name": "Wabtec Corp, US",
+            "description": "Wabtec is a leading global provider of equipment, systems, digital solutions, and value-added services. The Company is spread across freight rail, transit, mining, industrial and marine. With high expertise, technologies, and pioneer employees, Wabtec is accelerating the future of transportation. The project combines data and information extracted from equipment and systems such as freight planning, rail schedules, transit planning, and fuel procurement for all modes of transportation. The data is then decoded, normalized, stored, analyzed, and utilized for report generation and dashboard creation.",
             "working": "Completed",
             "screenshot": "task_management.png",
             "notes": [
@@ -80,14 +80,14 @@
                 "In this project, Admin can assign task to users and users can check the assigned tasks when they login.",
                 "Developed using React JS, MySQL, Flask"
             ],
-            "link": "https://github.com/HrushikeshKaranth/Task-Management-app",
-            "logo": ""
+            "link": "https://www.wabteccorp.com/",
+            "logo": "wabtec-logo.svg"
         },
         {
             "id": 4,
-            "name": "Black Luxury",
-            "description": "A luxury car rental web app.",
-            "working": "Work in progress",
+            "name": "First National Financial, Canada",
+            "description": "First National mortgages which specialize in mortgage processing in Canada. The company provides financial services based on the software used as a service model that gauges, selects, and automates the origin and source of funds for new mortgage loans and thus ensures a smoother regulatory compliance mechanism.",
+            "working": "Completed",
             "screenshot": "blckluxury.png",
             "notes": [
                 "In this realtime project, Customer can rent a luxury car from the list based on the location.",
@@ -95,8 +95,8 @@
                 "Razer pay integration for payment gateway.",
                 "Developed using React JS, Flask, MySQL."
             ],
-            "link": "https://blckluxury.com/",
-            "logo": ""
+            "link": "https://www.firstnational.ca/",
+            "logo": "first-national-logo.svg"
         }
     ],
     "skills": [
@@ -372,6 +372,19 @@
                     "id": 1,
                     "name": "Terraform",
                     "icon": "skill-icons:terraform-light"
+                }
+            ],
+            "monitoring": [
+                {
+                    "id": 1,
+                    "name": "Nagios",
+                    "icon": "",
+                    "logo":"nagios.png"
+                },
+                {
+                    "id": 2,
+                    "name": "Cloud Watch",
+                    "icon": "logos:aws-cloudwatch"
                 }
             ]
         }

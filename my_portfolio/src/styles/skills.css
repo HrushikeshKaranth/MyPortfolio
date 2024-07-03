@@ -29,17 +29,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgb(193, 177, 207);
+  color: rgb(233, 233, 233);
   gap: 1rem;
   font-size: 24px;
   cursor: pointer;
 }
 .headerSkills span {
   cursor: pointer;
-}
-
-.headerSkills:hover {
-  color: white;
 }
 
 .skillSection {
@@ -65,7 +61,7 @@
 .skill span {
   width: fit-content;
   font-weight: 500;
-  color: rgb(212, 212, 212);
+  color: rgb(233, 233, 233);
   font-size: 16px;
 }
 

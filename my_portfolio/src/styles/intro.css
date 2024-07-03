@@ -99,7 +99,7 @@
   width: 100%;
   background-color: rgb(48, 48, 48);
   font-family: "Nunito Sans", sans-serif;
-  color: rgb(212, 212, 212);
+  color: rgb(233, 233, 233);
   animation: openAnime 1.5s;
 }
 
@@ -150,7 +150,7 @@
   background-color: #6ea3e0;
   width: 160px;
   height: 200px;
-  border: 3px solid rgb(212, 212, 212);
+  border: 3px solid rgb(233, 233, 233);
   border-radius: 5px;
 }
 
@@ -288,7 +288,7 @@
     background-color: #6ea3e0;
     width: 100px;
     height: 120px;
-    border: 3px solid rgb(212, 212, 212);
+    border: 3px solid rgb(233, 233, 233);
     border-radius: 5px;
   }
   .nameAndJobDesc {
@@ -342,7 +342,7 @@
     background-color: #6ea3e0;
     width: 140px;
     height: 160px;
-    border: 3px solid rgb(212, 212, 212);
+    border: 3px solid rgb(233, 233, 233);
     border-radius: 5px;
   }
   .nameAndJobDesc {
@@ -413,7 +413,7 @@
     background-color: #6ea3e0;
     width: 100px;
     height: 120px;
-    border: 3px solid rgb(212, 212, 212);
+    border: 3px solid rgb(233, 233, 233);
     border-radius: 5px;
   }
   .nameAndJobDesc {

@@ -15,22 +15,24 @@ function Education() {
   return (
     <>
       <div className='headerEducation' onClick={() => { setshowEducation(!showEducation) }}>
-        <span>EDUCATION</span>
+        <span> <b>EDUCATION</b> </span>
         {
         //   showEducation ?
-          <Icon ref={item} className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
+          // <Icon ref={item} className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
         //   :
         //   <Icon className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
         }
       </div>
-      <div className='companies' style={showEducation ? { display: 'flex' } : { display: 'none' }}>
+      <div className='companies' 
+      // style={showEducation ? { display: 'flex' } : { display: 'none' }}
+      >
         <>
           {
             data.map((data) => {
               return (
                 <div className='educationcard' key={data.id}>
                   <div className='companyName'>
-                    <div className='companyLogo'><img src={data.logo} alt={data.companyName} /></div>
+                    <div className='companyLogo'><img src={require(`../images/${data.logo}`)} alt={data.companyName} /></div>
                     <>
                       <span className='nameAndLinkedin'>
                         <span>{data.companyName}</span>

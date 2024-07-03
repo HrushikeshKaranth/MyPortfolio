@@ -35,7 +35,7 @@
 }
 .headerSkills{
     @include flexEnd($v: center, $h: space-between);
-    color: $trenaryColor;
+    color: $textColor1;
     gap: 1rem;
     font-size: 24px;
     cursor: pointer;
@@ -43,9 +43,9 @@
         cursor: pointer;
     }
 }
-.headerSkills:hover{
-    color: white;
-}
+// .headerSkills:hover{
+//     color: white;
+// }
 .skillSection{
     margin-top: 1rem;
     width: 100%;

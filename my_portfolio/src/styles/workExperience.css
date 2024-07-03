@@ -27,7 +27,7 @@
 .header {
   font-size: 24px;
   cursor: pointer;
-  color: rgb(193, 177, 207);
+  color: rgb(233, 233, 233);
   width: 100%;
   display: flex;
   align-items: center;
@@ -37,10 +37,6 @@
 }
 .header span {
   cursor: pointer;
-}
-
-.header:hover {
-  color: white;
 }
 
 .companies {
@@ -174,7 +170,7 @@
 
 .description {
   margin-top: 1rem;
-  color: rgb(212, 212, 212);
+  color: rgb(233, 233, 233);
 }
 .description span {
   font-size: 16px;

@@ -5,7 +5,7 @@ function SocialLinks() {
         <>
             <div>
                 <Icon className='icon' icon="logos:google-gmail" />
-                <a target={'_blank'} href="mailto:hrushikeshkaranth@gmail.com">hrushikeshkaranth@gmail.com</a>
+                <a target={'_blank'} href="mailto:hshrushikesh@gmail.com">hshrushikesh@gmail.com</a>
             </div>
             <div>
                 <Icon className='icon' icon="logos:google-maps" />
@@ -13,18 +13,18 @@ function SocialLinks() {
             </div>
             <div>
                 <Icon className='icon' icon="mdi:github" style={{ color: 'white' }} />
-                <a target={'_blank'} href='https://github.com/HrushikeshKaranth'>GitHub Profile</a>
-                <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" />
+                <a target={'_blank'} href='https://github.com/HrushikeshKaranth'>GitHub Profile ></a>
+                {/* <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" /> */}
             </div>
             <div>
                 <Icon className='icon' icon="logos:linkedin-icon" />
-                <a target={'_blank'} href='https://www.linkedin.com/in/hrushikesh-h-s-25b78018b/'>LinkedIn Profile</a>
-                <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" />
+                <a target={'_blank'} href='https://www.linkedin.com/in/hrushikesh-h-s-25b78018b/'>LinkedIn Profile ></a>
+                {/* <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" /> */}
             </div>
             <div>
                 <Icon className='icon' icon="logos:google-drive" />
-                <a target={'_blank'} href='https://drive.google.com/file/d/1zIG6sqc--arAZ_48SaqVQVOUc_vH37X7/view'>Resume</a>
-                <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" />
+                <a target={'_blank'} href='https://drive.google.com/file/d/1zIG6sqc--arAZ_48SaqVQVOUc_vH37X7/view'>Resume ></a>
+                {/* <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" /> */}
             </div>
         </>
     )

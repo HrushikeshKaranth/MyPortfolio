@@ -14,10 +14,12 @@ function Skills() {
     return (
         <>
             <div className='headerSkills' onClick={() => { setShowSkills(!showSkills) }}>
-                <span>SKILLS</span>
-                <Icon className='icon' ref={item} icon="material-symbols:keyboard-arrow-down-rounded" />
+                <span> <b>SKILLS</b></span>
+                {/* <Icon className='icon' ref={item} icon="material-symbols:keyboard-arrow-down-rounded" /> */}
             </div>
-                <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                <div className='skillSection' 
+                // style={showSkills ? { display: 'flex' } : { display: 'none' }}
+                >
                     {
                         data.map((data) => {
                             return (

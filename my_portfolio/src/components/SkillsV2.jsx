@@ -14,12 +14,14 @@ function SkillsV2() {
     return (
         <>
             <div className='headerSkills' onClick={() => { setShowSkills(!showSkills) }}>
-                <span>SKILLS</span>
-                <Icon className='icon' ref={item} icon="material-symbols:keyboard-arrow-down-rounded" />
+                <span><b>SKILLS</b></span>
+                {/* <Icon className='icon' ref={item} icon="material-symbols:keyboard-arrow-down-rounded" /> */}
             </div>
             <br />
             <span><b>Operating Systems:</b></span>
-            <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+            <div className='skillSection' 
+            // style={showSkills ? { display: 'flex' } : { display: 'none' }}
+            >
                 {
                     data[0].OS.map((data) => {
                         return (
@@ -172,7 +174,7 @@ function SkillsV2() {
                 }
             </div>
             <br />
-            <span><b>Containerization:</b></span>
+            <span><b>Containerization and Orchestration:</b></span>
             <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                 {
                     data[0].containerization.map((data) => {
@@ -193,6 +195,23 @@ function SkillsV2() {
                         return (
                             <div className='skill'>
                                 {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                <span>{data.name}</span>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+            <br />
+            <span><b>Monitoring:</b></span>
+            <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                {
+                    data[0].monitoring.map((data) => {
+                        return (
+                            <div className='skill'>
+                                {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : 
+                                <img className='skillIcon' src={require(`../images/${data.logo}`)} alt={data.logo} />
+                                // <Icon className='skillIcon' icon="ph:wifi-none-thin" />
+                                }
                                 <span>{data.name}</span>
                             </div>
                         )

@@ -35,7 +35,7 @@
 .header{
     font-size: 24px;
     cursor: pointer;
-    color: $trenaryColor;
+    color: $textColor1;
     width: 100%;
     @include flexEnd($v: center, $h: space-between);
     gap: 1rem;
@@ -44,9 +44,9 @@
         cursor: pointer;
     }
 }
-.header:hover{
-    color: white;
-}
+// .header:hover{
+//     color: white;
+// }
 .companies{
     margin-top: 1rem;
     width: 100%;
