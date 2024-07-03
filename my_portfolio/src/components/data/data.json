@@ -285,7 +285,7 @@
                 {
                     "id": 1,
                     "name": "Amazon Web Services",
-                    "icon": "logos:aws"
+                    "icon": "skill-icons:aws-light"
                 }
             ],
             "buildTools": [
