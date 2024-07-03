@@ -29,7 +29,8 @@
 .projects{
     margin-top: 1rem;
     padding: 1rem;
-    border: 2px solid $textColor2;
+    border-top: 2px solid $textColor2;
+    border-bottom: 2px solid $textColor2;
 }
 .headerProject{
     font-size: 24px;
