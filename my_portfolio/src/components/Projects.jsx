@@ -32,17 +32,26 @@ function Projects() {
                                 <div className='company' key={data.id}>
                                     <div className='companyName'>
                                         <div className='companyLogo'>{
-                                        data.logo ? <img src={require(`../images/${data.logo}`)} alt={data.name} />: 
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png" alt="no Logo" /> }</div>
-                                        <>
-                                            <span className='nameAndLinkedin'>
-                                                <span>{data.name}</span>
-                                            </span><br />
-                                            <div className='projectDescription'>
-                                                <p style={{color:'white'}}>- {data.description}{' '} </p>
-                                            </div>
-                                        </>
+                                            data.logo ? <img src={require(`../images/${data.logo}`)} alt={data.name} /> :
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png" alt="no Logo" />}
+                                        </div>
+                                        <span className='nameAndLinkedin'>
+                                            <span>{data.name}</span>
+                                        </span>
                                     </div>
+                                    <>
+                                        <div className='fromAndTo'
+                                            style={data.to == 'Present' ? { color: '#34a853' } : { color: '#f36b5f' }}>
+                                            <span className='fromYear'>{data.from}</span>
+                                            {' - '}
+                                            <span className='toYear'>{data.to}</span>
+                                        </div>
+                                        <div className='jobTitle'>Role - {data.jobTitle}</div>
+                                        <br />
+                                        <div className='projectDescription'>
+                                            <p style={{ color: 'white' }}>- {data.description}{' '} </p>
+                                        </div>
+                                    </>
                                     {/* <div className='screenshot hide'>
                                         <img src={require(`../images/${data.screenshot}`)} alt="" />
                                     </div> */}

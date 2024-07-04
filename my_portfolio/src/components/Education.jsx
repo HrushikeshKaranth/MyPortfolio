@@ -3,27 +3,27 @@ import { Icon } from '@iconify/react';
 import workdata from './data/data.json'
 
 function Education() {
-    const [data, setData] = useState(workdata.education)
-    const [showEducation, setshowEducation] = useState(true)
-    let item = useRef()
-    const [showDesc, setShowDesc] = useState(false)
-    useEffect(()=>{
-        try {
-            showEducation?item.current.style='transform:rotate(-180deg)':item.current.style='transform:rotate(0deg)'
-        } catch (error) {}
-    },[showEducation])
+  const [data, setData] = useState(workdata.education)
+  const [showEducation, setshowEducation] = useState(true)
+  let item = useRef()
+  const [showDesc, setShowDesc] = useState(false)
+  useEffect(() => {
+    try {
+      showEducation ? item.current.style = 'transform:rotate(-180deg)' : item.current.style = 'transform:rotate(0deg)'
+    } catch (error) { }
+  }, [showEducation])
   return (
     <>
       <div className='headerEducation' onClick={() => { setshowEducation(!showEducation) }}>
         <span> <b>EDUCATION</b> </span>
         {
-        //   showEducation ?
+          //   showEducation ?
           // <Icon ref={item} className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
-        //   :
-        //   <Icon className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
+          //   :
+          //   <Icon className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
         }
       </div>
-      <div className='companies' 
+      <div className='companies'
       // style={showEducation ? { display: 'flex' } : { display: 'none' }}
       >
         <>
@@ -36,10 +36,10 @@ function Education() {
                     <>
                       <span className='nameAndLinkedin'>
                         <span>{data.companyName}</span>
-                        {data.linkedin &&<a target={'_blank'} href={data.linkedin}><Icon className='icon' icon="logos:linkedin-icon" /></a>}
+                        {data.linkedin && <a target={'_blank'} href={data.linkedin}><Icon className='icon' icon="logos:linkedin-icon" /></a>}
                       </span>
                       <div>
-                      <a target={'_blank'} href={data.locationUrl}>
+                        <a target={'_blank'} href={data.locationUrl}>
                           - {data.address}
                           <Icon className='icon locicon' icon="material-symbols:location-on-outline-rounded" />
                         </a>

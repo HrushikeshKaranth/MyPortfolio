@@ -52,7 +52,7 @@ function WorkExperience() {
                     {' - '}
                     <span className='toYear'>{data.to} ({data.workTime})</span>
                   </div>
-                  <div className='jobTitle'>{data.jobTitle}</div>
+                  <div className='jobTitle'>Role - {data.jobTitle}</div>
                   {/* <div className='description'>
                     <span className='hide'>Tasks/Responsibilities:</span>
                     <ul className='hide'>
