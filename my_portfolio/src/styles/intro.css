@@ -145,12 +145,12 @@
 }
 
 .profilePhoto div {
-  background-image: url("../images/profile_photo.jpg");
+  background-image: url("../images/profile_photo_4.jpg");
   background-size: 100% 100%;
   background-color: #6ea3e0;
   width: 160px;
-  height: 200px;
-  border: 3px solid rgb(233, 233, 233);
+  height: 190px;
+  border: 3px solid rgb(143, 143, 143);
   border-radius: 5px;
 }
 
@@ -280,7 +280,6 @@
     padding: 1rem;
   }
   .profilePhoto div {
-    background-image: url("../images/profile_photo.jpg");
     background-size: 100% 100%;
     background-color: #6ea3e0;
     width: 100px;
@@ -331,7 +330,6 @@
     justify-content: flex-start;
   }
   .profilePhoto div {
-    background-image: url("../images/profile_photo.jpg");
     background-size: 100% 100%;
     width: 140px;
     height: 160px;
@@ -396,7 +394,6 @@
     border-bottom: 2px solid rgb(233, 233, 233);
   }
   .profilePhoto div {
-    background-image: url("../images/profile_photo.jpg");
     background-size: 100% 100%;
     background-color: #6ea3e0;
     width: 100px;

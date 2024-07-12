@@ -161,12 +161,12 @@
 
 .profilePhoto {
     div {
-        background-image: url('../images/profile_photo.jpg');
+        background-image: url('../images/profile_photo_4.jpg');
         background-size: 100% 100%;
         background-color: $textColor2;
         width: 160px;
-        height: 200px;
-        border: 3px solid $textColor1;
+        height: 190px;
+        border: 3px solid $headerColor;
         border-radius: 5px;
     }
 }
@@ -300,7 +300,7 @@
 
     .profilePhoto {
         div {
-            background-image: url('../images/profile_photo.jpg');
+            // background-image: url('../images/profile_photo.jpg');
             background-size: 100% 100%;
             background-color: $textColor2;
             width: 100px;
@@ -358,7 +358,7 @@
 
     .profilePhoto {
         div {
-            background-image: url('../images/profile_photo.jpg');
+            // background-image: url('../images/profile_photo.jpg');
             background-size: 100% 100%;
             // background-color: $textColor2;
             width: 140px;
@@ -436,7 +436,7 @@
 
     .profilePhoto {
         div {
-            background-image: url('../images/profile_photo.jpg');
+            // background-image: url('../images/profile_photo.jpg');
             background-size: 100% 100%;
             background-color: $textColor2;
             width: 100px;
