@@ -23,7 +23,7 @@ function SocialLinks() {
             </div>
             <div>
                 <Icon className='icon' icon="logos:google-drive" />
-                <a target={'_blank'} href='https://drive.google.com/file/d/1CeWe1NnbLIuLtlRRgHHQUCoFkdDJAPBM/view?usp=sharing'>Resume ></a>
+                <a target={'_blank'} href='https://drive.google.com/file/d/1ThACqlOPDTg_Af1oDLp5JNHcRCfn5tng/view?usp=sharing'>Resume ></a>
                 {/* <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" /> */}
             </div>
         </>
