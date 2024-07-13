@@ -147,7 +147,6 @@
 .profilePhoto div {
   background-image: url("../images/profile_photo_4.jpg");
   background-size: 100% 100%;
-  background-color: #6ea3e0;
   width: 160px;
   height: 190px;
   border: 3px solid rgb(143, 143, 143);
@@ -281,10 +280,8 @@
   }
   .profilePhoto div {
     background-size: 100% 100%;
-    background-color: #6ea3e0;
     width: 100px;
     height: 120px;
-    border-radius: 5px;
   }
   .nameAndJobDesc {
     flex-direction: column;
@@ -333,7 +330,6 @@
     background-size: 100% 100%;
     width: 140px;
     height: 160px;
-    border-radius: 5px;
   }
   .nameAndJobDesc {
     flex-direction: column;
@@ -395,10 +391,8 @@
   }
   .profilePhoto div {
     background-size: 100% 100%;
-    background-color: #6ea3e0;
     width: 100px;
     height: 120px;
-    border-radius: 5px;
   }
   .nameAndJobDesc {
     flex-direction: column;
