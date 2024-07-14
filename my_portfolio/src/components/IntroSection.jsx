@@ -22,9 +22,10 @@ function IntroSection() {
                 </div>
             </div>
             <p className='bio'>
-                - A Creative Engineer, Fast learner, Consistent worker with around {(new Date().getFullYear()) - 2021} years of
-                experience 😇 in Software Engineering.<br />
-                - My objective is to be a part of an organization where I can utilize my knowledge and skills and at the same time enhance my knowledge and skills as per the requirement of the organization and also develop managerial and interpersonal skills. I will put my full effort to lead the company in a successful path.
+            🚀 DevOps Engineer | {(new Date().getFullYear()) - 2021} Years Experience 🌟 | CI/CD 💻 | AWS Cloud ⚡ | Docker 🐳 | Kubernetes ☸️ | Automation & Optimization 🤖🛠️ | Cloud Enthusiast ☁️
+                {/* - A Creative Engineer, Fast learner, Consistent worker with around {(new Date().getFullYear()) - 2021} years of
+                experience 😇 in DevOps.<br />
+                - My objective is to be a part of an organization where I can utilize my knowledge and skills and at the same time enhance my knowledge and skills as per the requirement of the organization and also develop managerial and interpersonal skills. I will put my full effort to lead the company in a successful path. */}
             </p>
             <div className='socialLinks'>
                 <SocialLinks />

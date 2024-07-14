@@ -30,15 +30,21 @@ function App() {
   return (
     <div className="app">
       <div className="intro">
+        <div></div>
         <IntroSection />
+        {/* <img src={require("./images/bg_img_4.png")} alt="" /> */}
+        {/* <img className="introBg" src={require("./images/bg_img_3.png")}></img> */}
       </div>
       <div className="workExperience">
+        <div></div>
         <WorkExperience/>
       </div>
       <div className="education">
+        <div></div>
         <Education/>
       </div>
       <div className="projects">
+        <div></div>
         <Projects/>
       </div>
       {/* <div className="skills">

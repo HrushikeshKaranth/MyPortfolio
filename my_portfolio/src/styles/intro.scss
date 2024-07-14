@@ -120,8 +120,25 @@
     font-family: $primaryFont1;
     color: $textColor1;
     animation: openAnime 1.5s;
+    // opacity: 50%;
 }
-
+.nameAndPhoto{
+    background-image: url('../images/bg_img_3_2.png');
+    background-size: cover;
+}
+// .intro>img{
+//     position: absolute;
+//     background-size: cover;
+//     background-position: 100%;
+// }
+.intro>div{
+    // width: inherit;
+    // height: inherit;
+    // position: relative;
+    // opacity: 0.5;
+    // background-repeat:no-repeat;
+    // background-position: 100%;
+}
 .nameAndPhoto {
     padding: 1rem;
     @include flexEnd($v: center, $h: flex-start);

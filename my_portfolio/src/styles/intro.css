@@ -104,6 +104,11 @@
 }
 
 .nameAndPhoto {
+  background-image: url("../images/bg_img_3_2.png");
+  background-size: cover;
+}
+
+.nameAndPhoto {
   padding: 1rem;
   display: flex;
   align-items: center;
