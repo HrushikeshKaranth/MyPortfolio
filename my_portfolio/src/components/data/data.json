@@ -51,9 +51,15 @@
             "jobTitle": "DevOps Engineer",
             "screenshot": "sound_wave.png",
             "notes": [
-                "Music Player with Play ▶, Pause ⏸, Loop 🔁 functionalities.",
-                "Upload your Music files 🎶, listen to it and Enjoy 😍",
-                "Developed using HTML, CSS, Javascript."
+                " Oversaw the Git/Git Hub Version Control System by managing repositories, permissions, branching, and tagging.",
+                " Configured and monitored cloud infrastructure on AWS using services like EC2, EBS, SNS, ELB, CloudWatch, Data Dog, S3, IAM and auto-scaling.",
+                " Deployed CI/CD pipeline using Jenkins to accelerate the Development and Deployment process.",
+                " Formulated and stationed Docker containers to organize monolithic applications into microservices and also orchestrated those containers using Kubernetes clusters.",
+                " Automation of installing packages and configuration in different nodes using Ansible playbooks and also monitored them using Nagios.",
+                " Developed efficient scripts for a portfolio of products to be hosted on Application servers using Shell.",
+                " Supervised provisioning of infrastructure using Terraform.",
+                " Automated environment provisioning in Docker and Kubernetes using Jenkins.",
+                " Bug identification and changes in a production environment using JIRA tracking tool"
             ],
             "link": "https://beghouconsulting.com/",
             "logo": "Beghou-Logo-Light.png"

@@ -56,7 +56,7 @@ function Projects() {
                                         <img src={require(`../images/${data.screenshot}`)} alt="" />
                                     </div> */}
                                     {/* <div className='description'>
-                                        <span className='hide'>Features:</span>
+                                        <span className='hide'>Tasks/Responsibilities:</span>
                                         <ul className='hide'>
                                             {
                                                 data.notes.map((list, i) => {
