@@ -390,6 +390,16 @@
                     "id": 1,
                     "name": "Terraform",
                     "icon": "skill-icons:terraform-light"
+                },
+                {
+                    "id": 2,
+                    "name": "Ansible",
+                    "icon": "devicon-plain:ansible-wordmark"
+                },
+                {
+                    "id": 1,
+                    "name": "Chef",
+                    "icon": "vscode-icons:file-type-chef"
                 }
             ],
             "monitoring": [

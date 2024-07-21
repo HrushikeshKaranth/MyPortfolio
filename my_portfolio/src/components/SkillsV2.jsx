@@ -35,7 +35,7 @@ function SkillsV2() {
                     </div>
                 </div>
                 {/* <br /> */}
-                <div className="skillsCard">
+                {/* <div className="skillsCard">
                     <span><b>Programming Languages:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
@@ -49,9 +49,9 @@ function SkillsV2() {
                             })
                         }
                     </div>
-                </div>
+                </div> */}
                 {/* <br /> */}
-                <div className="skillsCard">
+                {/* <div className="skillsCard">
                     <span><b>Frameworks/Libraries:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
@@ -65,23 +65,7 @@ function SkillsV2() {
                             })
                         }
                     </div>
-                </div>
-                {/* <br /> */}
-                <div className='skillsCard'>
-                    <span><b>Bug Tracking Tools:</b></span>
-                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
-                        {
-                            data[0].bugTracking.map((data) => {
-                                return (
-                                    <div className='skill' key={data.id}>
-                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
-                                        <span>{data.name}</span>
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
+                </div> */}
                 {/* <br /> */}
                 <div className='skillsCard'>
                     <span><b>Cloud Services:</b></span>
@@ -98,12 +82,11 @@ function SkillsV2() {
                         }
                     </div>
                 </div>
-                {/* <br /> */}
                 <div className='skillsCard'>
-                    <span><b>Build Tools:</b></span>
+                    <span><b>SCM / Version Control:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
-                            data[0].buildTools.map((data) => {
+                            data[0].scmvc.map((data) => {
                                 return (
                                     <div className='skill' key={data.id}>
                                         {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
@@ -132,70 +115,6 @@ function SkillsV2() {
                 </div>
                 {/* <br /> */}
                 <div className='skillsCard'>
-                    <span><b>Automation Tools:</b></span>
-                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
-                        {
-                            data[0].automation.map((data) => {
-                                return (
-                                    <div className='skill' key={data.id}>
-                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
-                                        <span>{data.name}</span>
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-                {/* <br /> */}
-                <div className='skillsCard'>
-                    <span><b>Databases:</b></span>
-                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
-                        {
-                            data[0].db.map((data) => {
-                                return (
-                                    <div className='skill' key={data.id}>
-                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
-                                        <span>{data.name}</span>
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-                {/* <br /> */}
-                <div className='skillsCard'>
-                    <span><b>Servers:</b></span>
-                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
-                        {
-                            data[0].servers.map((data) => {
-                                return (
-                                    <div className='skill' key={data.id}>
-                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
-                                        <span>{data.name}</span>
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-                {/* <br /> */}
-                <div className='skillsCard'>
-                    <span><b>SCM/Version Control:</b></span>
-                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
-                        {
-                            data[0].scmvc.map((data) => {
-                                return (
-                                    <div className='skill' key={data.id}>
-                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
-                                        <span>{data.name}</span>
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-                {/* <br /> */}
-                <div className='skillsCard'>
                     <span><b>Containerization and Orchestration:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
@@ -212,7 +131,7 @@ function SkillsV2() {
                 </div>
                 {/* <br /> */}
                 <div className='skillsCard'>
-                    <span><b>Infrastructure as a Code:</b></span>
+                    <span><b>Automation / Infrastructure as a Code:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
                             data[0].iaas.map((data) => {
@@ -223,6 +142,7 @@ function SkillsV2() {
                                     </div>
                                 )
                             })
+                            
                         }
                     </div>
                 </div>
@@ -245,6 +165,104 @@ function SkillsV2() {
                         }
                     </div>
                 </div>
+                <div className='skillsCard'>
+                    <span><b>Servers:</b></span>
+                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                        {
+                            data[0].servers.map((data) => {
+                                return (
+                                    <div className='skill' key={data.id}>
+                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                        <span>{data.name}</span>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+                {/* <br /> */}
+                <div className='skillsCard'>
+                    <span><b>Build Tools:</b></span>
+                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                        {
+                            data[0].buildTools.map((data) => {
+                                return (
+                                    <div className='skill' key={data.id}>
+                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                        <span>{data.name}</span>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+                <div className='skillsCard'>
+                    <span><b>Bug Tracking Tools:</b></span>
+                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                        {
+                            data[0].bugTracking.map((data) => {
+                                return (
+                                    <div className='skill' key={data.id}>
+                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                        <span>{data.name}</span>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+                {/* <br /> */}
+                {/* <div className='skillsCard'>
+                    <span><b>Cloud Services:</b></span>
+                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                        {
+                            data[0].cloudService.map((data) => {
+                                return (
+                                    <div className='skill' key={data.id}>
+                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                        <span>{data.name}</span>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div> */}
+                {/* <br /> */}
+                {/* <br /> */}
+                {/* <div className='skillsCard'>
+                    <span><b>Configuration Management Tools:</b></span>
+                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                        {
+                            data[0].automation.map((data) => {
+                                return (
+                                    <div className='skill' key={data.id}>
+                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                        <span>{data.name}</span>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div> */}
+                {/* <br /> */}
+                {/* <div className='skillsCard'>
+                    <span><b>Databases:</b></span>
+                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                        {
+                            data[0].db.map((data) => {
+                                return (
+                                    <div className='skill' key={data.id}>
+                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                        <span>{data.name}</span>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div> */}
+                {/* <br /> */}
+                {/* <br /> */}
+                
             </div>
         </>
     )
