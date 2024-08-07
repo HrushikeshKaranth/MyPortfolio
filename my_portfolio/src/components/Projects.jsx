@@ -40,12 +40,12 @@ function Projects() {
                                         </span>
                                     </div>
                                     <>
-                                        <div className='fromAndTo'
+                                        {/* <div className='fromAndTo'
                                             style={data.to == 'Present' ? { color: '#34a853' } : { color: '#f36b5f' }}>
                                             <span className='fromYear'>{data.from}</span>
                                             {' - '}
                                             <span className='toYear'>{data.to}</span>
-                                        </div>
+                                        </div> */}
                                         <div className='jobTitle'>Role - {data.jobTitle}</div>
                                         <br />
                                         <div className='projectDescription'>
