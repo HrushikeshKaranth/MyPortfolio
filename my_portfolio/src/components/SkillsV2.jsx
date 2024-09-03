@@ -35,7 +35,7 @@ function SkillsV2() {
                     </div>
                 </div>
                 {/* <br /> */}
-                {/* <div className="skillsCard">
+                <div className="skillsCard">
                     <span><b>Programming Languages:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
@@ -49,7 +49,7 @@ function SkillsV2() {
                             })
                         }
                     </div>
-                </div> */}
+                </div>
                 {/* <br /> */}
                 {/* <div className="skillsCard">
                     <span><b>Frameworks/Libraries:</b></span>

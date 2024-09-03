@@ -35,18 +35,18 @@ function App() {
         {/* <img src={require("./images/bg_img_4.png")} alt="" /> */}
         {/* <img className="introBg" src={require("./images/bg_img_3.png")}></img> */}
       </div>
-      <div className="workExperience">
+      {/* <div className="workExperience">
         <div></div>
         <WorkExperience/>
-      </div>
+      </div> */}
       <div className="education">
         <div></div>
         <Education/>
       </div>
-      <div className="projects">
+      {/* <div className="projects">
         <div></div>
         <Projects/>
-      </div>
+      </div> */}
       {/* <div className="skills">
         <Skills/>
       </div> */}
