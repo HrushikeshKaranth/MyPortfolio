@@ -27,8 +27,6 @@
 .skills {
   margin-top: 1rem;
   padding: 1rem;
-  border-top: 2px solid rgb(233, 233, 233);
-  border-bottom: 2px solid rgb(233, 233, 233);
   overflow: visible;
 }
 
@@ -42,9 +40,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgb(233, 233, 233);
+  font-size: 30px;
+  color: #6ea3e0;
   gap: 1rem;
-  font-size: 24px;
   cursor: pointer;
 }
 .headerSkills span {
@@ -60,6 +58,7 @@
   gap: 0.5rem;
   flex-wrap: wrap;
   transition: all 0.3s;
+  font-weight: 300;
 }
 
 .skill {

@@ -113,7 +113,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-bottom: 2px solid rgb(233, 233, 233);
+  border-bottom: 2px solid rgba(255, 254, 254, 0.38);
 }
 
 .myName {
@@ -138,6 +138,7 @@
 
 .bio {
   font-weight: 300;
+  line-height: 2rem;
   text-align: justify;
   width: 100%;
   font-size: 18px;
@@ -145,12 +146,11 @@
   align-items: center;
   justify-content: flex-start;
   padding: 1rem;
-  line-height: 2rem;
-  border-bottom: 2px solid rgb(233, 233, 233);
+  border-bottom: 2px solid rgba(255, 254, 254, 0.38);
 }
 
 .profilePhoto div {
-  background-image: url("../images/profile_photo_4.jpg");
+  background-image: url("../images/profile_photo_1.png");
   background-size: 100% 100%;
   width: 160px;
   height: 190px;
@@ -191,7 +191,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 1.5rem;
-  border-left: 2px solid rgb(233, 233, 233);
+  border-left: 2px solid rgba(255, 254, 254, 0.38);
   padding: 0 2rem;
 }
 .socialLinksDesktop div {
@@ -224,7 +224,7 @@
   display: none;
   flex-direction: column;
   gap: 2rem;
-  border-left: 2px solid rgb(233, 233, 233);
+  border-left: 2px solid rgba(255, 254, 254, 0.38);
   padding: 0 2rem;
 }
 .socialLinks div {

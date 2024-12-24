@@ -13,14 +13,14 @@ function SocialLinks() {
             </div>
             <div>
                 <Icon className='icon' icon="mdi:github" style={{ color: 'white' }} />
-                <a target={'_blank'} href='https://github.com/HrushikeshKaranth'>GitHub Profile ></a>
+                <a target={'_blank'} href='https://github.com/HrushikeshKaranth'>GitHub Profile -></a>
                 {/* <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" /> */}
             </div>
-            {/* <div>
+            <div>
                 <Icon className='icon' icon="logos:linkedin-icon" />
-                <a target={'_blank'} href='https://www.linkedin.com/in/hrushikesh-h-s-25b78018b/'>LinkedIn Profile ></a>
-                <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" />
-            </div> */}
+                <a target={'_blank'} href='https://www.linkedin.com/in/hrushikesh-h-s-25b78018b/'>LinkedIn Profile -></a>
+                {/* <Icon className='icon2' icon="material-symbols:arrow-forward-rounded" /> */}
+            </div>
             {/* <div>
                 <Icon className='icon' icon="logos:google-drive" />
                 <a target={'_blank'} href='https://drive.google.com/file/d/1ThACqlOPDTg_Af1oDLp5JNHcRCfn5tng/view?usp=sharing'>Resume ></a>

@@ -21,8 +21,6 @@
 .education {
   margin-top: 1rem;
   padding: 1rem;
-  border-top: 2px solid rgb(233, 233, 233);
-  border-bottom: 2px solid rgb(233, 233, 233);
 }
 
 .educationcard {
@@ -67,9 +65,9 @@
 }
 
 .headerEducation {
-  font-size: 24px;
+  font-size: 30px;
+  color: #6ea3e0;
   cursor: pointer;
-  color: rgb(233, 233, 233);
   width: 100%;
   display: flex;
   align-items: center;

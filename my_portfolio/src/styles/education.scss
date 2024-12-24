@@ -29,8 +29,8 @@
 .education{
     margin-top: 1rem;
     padding: 1rem;
-    border-top: 2px solid $textColor1;
-    border-bottom: 2px solid $textColor1;
+    // border-top: 2px solid $textColor1;
+    // border-bottom: 2px solid $textColor1;
     // background-image: url('../images/bg_img_3_2.png');
     // background-size: cover;
 }
@@ -71,9 +71,9 @@
     }
 }
 .headerEducation{
-    font-size: 24px;
+    font-size: 30px;
+    color: $textColor2;
     cursor: pointer;
-    color: $textColor1;
     width: 100%;
     @include flexEnd($v: center, $h: space-between);
     gap: 1rem;

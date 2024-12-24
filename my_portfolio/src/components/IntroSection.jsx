@@ -22,7 +22,7 @@ function IntroSection() {
                 </div>
             </div>
             <p className='bio'>
-            🚀 Engineer | CI/CD 💻 | AWS Cloud ⚡ | Docker 🐳 | Kubernetes ☸️ | Automation & Optimization 🤖🛠️ | Cloud Enthusiast ☁️
+            🚀 Software Engineer | Compititive programmer 💻 | Automation & Optimization 🤖🛠️ | Cloud Enthusiast ☁️
                 {/* - A Creative Engineer, Fast learner, Consistent worker with around {(new Date().getFullYear()) - 2021} years of
                 experience 😇 in DevOps.<br />
                 {(new Date().getFullYear()) - 2021} Years Experience 🌟

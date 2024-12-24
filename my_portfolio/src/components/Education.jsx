@@ -31,29 +31,34 @@ function Education() {
             data.map((data) => {
               return (
                 <div className='educationcard' key={data.id}>
-                  <div className='companyName'>
-                    <div className='companyLogo'><img src={require(`../images/${data.logo}`)} alt={data.companyName} /></div>
-                    <>
-                      <span className='nameAndLinkedin'>
-                        <span>{data.companyName}</span>
-                        {data.linkedin && <a target={'_blank'} href={data.linkedin}><Icon className='icon' icon="logos:linkedin-icon" /></a>}
-                      </span>
-                      <div>
-                        <a target={'_blank'} href={data.locationUrl}>
-                          - {data.address}
-                          <Icon className='icon locicon' icon="material-symbols:location-on-outline-rounded" />
-                        </a>
+                  <div className='LogoAndName'>
+                    <div className='companyName'>
+                      <div className='companyLogo'><img src={require(`../images/${data.logo}`)} alt={data.companyName} /></div>
+                      {/* <div className='nameAndLinkedinHead'>
+                        <span className='nameAndLinkedin'>
+                          <span>{data.companyName}</span>
+                          {data.linkedin && <a target={'_blank'} href={data.linkedin}><Icon className='icon' icon="logos:linkedin-icon" /></a>}
+                        </span>
+                        <div>
+                          <a target={'_blank'} href={data.locationUrl}>
+                            - {data.address}
+                            <Icon className='icon locicon' icon="material-symbols:location-on-outline-rounded" />
+                          </a>
+                        </div>
+                      </div> */}
+                    </div>
+                    <div className='jobTitleFromTo'>
+                      <div className='jobTitle'>{data.jobTitle}</div>
+                      <div className='fromAndTo'
+                        style={data.to == 'Present' ? { color: '#34a853' } : { color: '#f36b5f' }}>
+                        <span className='fromYear'>{data.from}</span>
+                        {' - '}
+                        <span className='toYear'>{data.to}</span>
                       </div>
-                    </>
+                    </div>
+
                   </div>
-                  <div className='fromAndTo'
-                    style={data.to == 'Present' ? { color: '#34a853' } : { color: '#f36b5f' }}>
-                    <span className='fromYear'>{data.from}</span>
-                    {' - '}
-                    <span className='toYear'>{data.to}</span>
-                  </div>
-                  <div className='jobTitle'>{data.jobTitle}</div>
-                  <div className='description'>
+                  {/* <div className='description'>
                     <span>Academic Details:</span>
                     <ul>
                       {
@@ -64,7 +69,7 @@ function Education() {
                         })
                       }
                     </ul>
-                  </div>
+                  </div> */}
                   {data.website && <div className='websiteUrl'>
                     <a target={'_blank'} href={data.website}><Icon className='icon breath' icon="material-symbols:arrow-forward-rounded" /></a>
                   </div>}

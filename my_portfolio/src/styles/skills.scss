@@ -35,8 +35,8 @@
 .skills{
     margin-top: 1rem;
     padding: 1rem;
-    border-top: 2px solid $textColor1;
-    border-bottom: 2px solid $textColor1;
+    // border-top: 2px solid $textColor1;
+    // border-bottom: 2px solid $textColor1;
     overflow: visible;
 }
 .skillsCard{
@@ -46,9 +46,11 @@
 }
 .headerSkills{
     @include flexEnd($v: center, $h: space-between);
-    color: $textColor1;
+    // color: $textColor1;
+    font-size: 30px;
+    color: $textColor2;
     gap: 1rem;
-    font-size: 24px;
+    // font-size: 24px;
     cursor: pointer;
     span{
         cursor: pointer;
@@ -64,6 +66,7 @@
     gap: .5rem;
     flex-wrap: wrap;
     transition: all .3s;
+    font-weight: 300;
 }
 .skill{
     border-radius: 5px;

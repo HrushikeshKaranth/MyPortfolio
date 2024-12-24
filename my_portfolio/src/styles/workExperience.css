@@ -92,13 +92,6 @@
   height: 24px;
 }
 
-.companyName {
-  display: flex;
-  align-items: none;
-  justify-content: none;
-  flex-direction: column;
-  margin-bottom: 1rem;
-}
 .companyName a {
   text-decoration: none;
   color: rgb(233, 233, 233);
@@ -143,29 +136,55 @@
 }
 
 .companyLogo {
-  background-color: rgb(37, 37, 37);
-  margin-bottom: 1rem;
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
 }
 .companyLogo img {
-  background-color: rgb(37, 37, 37);
-  height: 50px;
+  height: 70px;
+}
+
+.nameAndLinkedinHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.jobTitleFromTo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.LogoAndName {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .fromAndTo {
-  margin-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   font-size: 14px;
+  background-color: rgb(48, 48, 48);
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
 }
 
 .jobTitle {
   background-color: rgb(48, 48, 48);
-  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 1rem;
   border-radius: 5px;
   color: rgb(233, 233, 233);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
 }
 

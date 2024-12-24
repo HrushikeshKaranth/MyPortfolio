@@ -20,7 +20,7 @@ function SkillsV2() {
             <br />
             <div className='skillsMain'>
                 <div className='skillsCard'>
-                    <span><b>Operating Systems:</b></span>
+                    <span><>Operating Systems:</></span>
                     <div className='skillSection'>
                         {
                             data[0].OS.map((data) => {
@@ -36,7 +36,7 @@ function SkillsV2() {
                 </div>
                 {/* <br /> */}
                 <div className="skillsCard">
-                    <span><b>Programming Languages:</b></span>
+                    <span><>Programming Languages:</></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
                             data[0].languages.map((data) => {
@@ -68,7 +68,7 @@ function SkillsV2() {
                 </div> */}
                 {/* <br /> */}
                 <div className='skillsCard'>
-                    <span><b>Cloud Services:</b></span>
+                    <span><>Cloud Services:</></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
                             data[0].cloudService.map((data) => {
@@ -83,7 +83,7 @@ function SkillsV2() {
                     </div>
                 </div>
                 <div className='skillsCard'>
-                    <span><b>SCM / Version Control:</b></span>
+                    <span><>SCM / Version Control:</></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
                             data[0].scmvc.map((data) => {
@@ -99,7 +99,7 @@ function SkillsV2() {
                 </div>
                 {/* <br /> */}
                 <div className='skillsCard'>
-                    <span><b>Continuous Integration Tools:</b></span>
+                    <span><>Continuous Integration Tools:</></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
                             data[0].cicd.map((data) => {
@@ -115,7 +115,7 @@ function SkillsV2() {
                 </div>
                 {/* <br /> */}
                 <div className='skillsCard'>
-                    <span><b>Containerization and Orchestration:</b></span>
+                    <span><>Containerization and Orchestration:</></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
                             data[0].containerization.map((data) => {
@@ -130,7 +130,7 @@ function SkillsV2() {
                     </div>
                 </div>
                 {/* <br /> */}
-                <div className='skillsCard'>
+                {/* <div className='skillsCard'>
                     <span><b>Automation / Infrastructure as a Code:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
@@ -145,9 +145,9 @@ function SkillsV2() {
                             
                         }
                     </div>
-                </div>
+                </div> */}
                 {/* <br /> */}
-                <div className='skillsCard'>
+                {/* <div className='skillsCard'>
                     <span><b>Monitoring:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
@@ -164,8 +164,8 @@ function SkillsV2() {
                             })
                         }
                     </div>
-                </div>
-                <div className='skillsCard'>
+                </div> */}
+                {/* <div className='skillsCard'>
                     <span><b>Servers:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
@@ -179,9 +179,9 @@ function SkillsV2() {
                             })
                         }
                     </div>
-                </div>
+                </div> */}
                 {/* <br /> */}
-                <div className='skillsCard'>
+                {/* <div className='skillsCard'>
                     <span><b>Build Tools:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
@@ -195,7 +195,7 @@ function SkillsV2() {
                             })
                         }
                     </div>
-                </div>
+                </div> */}
                 <div className='skillsCard'>
                     <span><b>Bug Tracking Tools:</b></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
