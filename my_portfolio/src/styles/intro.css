@@ -138,8 +138,6 @@
 
 .bio {
   font-weight: 300;
-  line-height: 2rem;
-  text-align: justify;
   width: 100%;
   font-size: 18px;
   display: flex;
@@ -224,7 +222,7 @@
   display: none;
   flex-direction: column;
   gap: 2rem;
-  border-left: 2px solid rgba(255, 254, 254, 0.38);
+  border-bottom: 2px solid rgba(255, 254, 254, 0.38);
   padding: 0 2rem;
 }
 .socialLinks div {
@@ -275,7 +273,6 @@
   }
   .bio {
     font-weight: 300;
-    text-align: justify;
     width: 100%;
     font-size: 16px;
     display: flex;
@@ -368,7 +365,6 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    border: none;
     gap: 1rem;
     padding: 1rem;
   }
@@ -392,7 +388,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid rgb(233, 233, 233);
+    border-bottom: 2px solid rgba(255, 254, 254, 0.38);
   }
   .profilePhoto div {
     background-size: 100% 100%;
@@ -432,7 +428,6 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    border: none;
     gap: 1rem;
     padding: 1rem;
   }

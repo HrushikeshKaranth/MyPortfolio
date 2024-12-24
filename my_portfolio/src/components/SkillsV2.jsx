@@ -197,7 +197,7 @@ function SkillsV2() {
                     </div>
                 </div> */}
                 <div className='skillsCard'>
-                    <span><b>Bug Tracking Tools:</b></span>
+                    <span><>Bug Tracking Tools:</></span>
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
                             data[0].bugTracking.map((data) => {

@@ -24,14 +24,15 @@
 }
 
 .educationcard {
-  width: 48.9%;
+  width: max-content;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  gap: 1rem;
   flex-wrap: wrap;
   background-color: rgb(37, 37, 37);
   border-radius: 5px;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   padding: 1rem;
   position: relative;
   animation: openAnime 0.3s;
@@ -47,7 +48,7 @@
 .educationcard .websiteUrl {
   background-color: rgb(48, 48, 48);
   border-radius: 50%;
-  position: absolute;
+  height: fit-content;
   top: 0.7rem;
   right: 0.7rem;
 }

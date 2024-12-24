@@ -30,6 +30,8 @@
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    // width: fit-content;
+    // flex-wrap: wrap;
     
 }
 .skills{
@@ -40,7 +42,7 @@
     overflow: visible;
 }
 .skillsCard{
-    background-color: $headerColor2;
+    background-color: $secondaryColor;
     padding: .5rem;
     border-radius: 5px;
 }
@@ -70,7 +72,7 @@
 }
 .skill{
     border-radius: 5px;
-    background-color: $secondaryColor;
+    background-color: $headerColor2;
     @include flexEnd($v: center, $h: flex-start);
     gap: 1rem;
     padding: .5rem;
@@ -78,10 +80,10 @@
         width: fit-content;
         font-weight: 500;
         color: $textColor1;
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 .skillIcon{
-    width: 36px;
-    height: 36px;
+    width: 24px;
+    height: 24px;
 }

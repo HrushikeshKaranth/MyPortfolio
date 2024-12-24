@@ -167,8 +167,8 @@
 
 .bio {
     font-weight: 300;
-    line-height: 2rem;
-    text-align: justify;
+    // line-height: 2rem;
+    // text-align: justify;
     width: 100%;
     font-size: 18px;
     @include flexEnd($v: center, $h: flex-start);
@@ -252,7 +252,7 @@
     display: none;
     flex-direction: column;
     gap: 2rem;
-    border-left: 2px solid $lineColor;
+    border-bottom: 2px solid $lineColor;
     padding: 0 2rem;
 
     div {
@@ -307,7 +307,7 @@
 
     .bio {
         font-weight: 300;
-        text-align: justify;
+        // text-align: justify;
         width: 100%;
         font-size: 16px;
         @include flexEnd($v: center, $h: flex-start);
@@ -414,7 +414,7 @@
     .socialLinks {
         width: 100%;
         @include flexEnd($v: flex-start, $h: center);
-        border: none;
+        // border: none;
         gap: 1rem;
         // padding: 0;
         padding: 1rem;
@@ -448,7 +448,7 @@
     .nameAndPhoto {
         padding: 1rem 2rem 1rem 1rem;
         @include flexEnd($v: center, $h: space-between);
-        border-bottom: 2px solid $textColor1;
+        border-bottom: 2px solid $lineColor;
     }
 
     .profilePhoto {
@@ -493,7 +493,7 @@
     .socialLinks {
         width: 100%;
         @include flexEnd($v: flex-start, $h: center);
-        border: none;
+        // border: none;
         gap: 1rem;
         padding: 1rem;
 

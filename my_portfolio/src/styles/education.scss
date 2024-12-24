@@ -36,12 +36,16 @@
 }
 .educationcard{
     // border: 2px solid $trenaryColor;
-    width: 48.9%;
-    @include flexEnd($v: flex-start, $h: flex-start);
+    width: max-content;
+    // @include flexEnd($v: flex-start, $h: flex-start);
+    display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
     background-color: $secondaryColor;
     border-radius: 5px;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     padding: 1rem;
     position: relative;
     animation: openAnime .3s;
@@ -55,7 +59,8 @@
         // border: 2px solid $textColor1;
         background-color: $primaryColor;
         border-radius: 50%;
-        position: absolute;
+        height:fit-content;
+        // position: relative;
         top: .7rem;
         right: .7rem;
         a{
