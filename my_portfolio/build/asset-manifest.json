@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d312d5d.css",
-    "main.js": "/static/js/main.84646105.js",
+    "main.js": "/static/js/main.15bbddf1.js",
     "static/media/myphoto.png": "/static/media/myphoto.f62cc890e1ae9b5d220f.png",
     "static/media/bg_img_2.png": "/static/media/bg_img_2.4b3f6cfb430740e74f5b.png",
     "static/media/netflix.png": "/static/media/netflix.cab81fc339a82b894111.png",
@@ -36,10 +36,10 @@
     "static/media/wabtec-logo.svg": "/static/media/wabtec-logo.37fcc29577536e020ae0.svg",
     "index.html": "/index.html",
     "main.2d312d5d.css.map": "/static/css/main.2d312d5d.css.map",
-    "main.84646105.js.map": "/static/js/main.84646105.js.map"
+    "main.15bbddf1.js.map": "/static/js/main.15bbddf1.js.map"
   },
   "entrypoints": [
     "static/css/main.2d312d5d.css",
-    "static/js/main.84646105.js"
+    "static/js/main.15bbddf1.js"
   ]
 }

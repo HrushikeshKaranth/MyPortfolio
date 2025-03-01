@@ -49,12 +49,12 @@ function Education() {
                     <div className='jobTitleFromTo'>
                       <div className='companyLogo'><img src={require(`../images/${data.logo}`)} alt={data.companyName} /></div>
                       <div className='jobTitle'>{data.jobTitle}</div>
-                      <div className='fromAndTo'
+                      {/* <div className='fromAndTo'
                         style={data.to == 'Present' ? { color: '#34a853' } : { color: '#f36b5f' }}>
                         <span className='fromYear'>{data.from}</span>
                         {' - '}
                         <span className='toYear'>{data.to}</span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   {/* <div className='description'>
