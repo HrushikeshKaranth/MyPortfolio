@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.abd2e9e4.css",
+    "main.css": "/static/css/main.4382217b.css",
     "main.js": "/static/js/main.c41bc8a1.js",
     "static/media/myphoto.png": "/static/media/myphoto.f62cc890e1ae9b5d220f.png",
     "static/media/bg_img_2.png": "/static/media/bg_img_2.4b3f6cfb430740e74f5b.png",
@@ -35,11 +35,11 @@
     "static/media/skipton-logo.svg": "/static/media/skipton-logo.bd4ad20e55e46a51e30c.svg",
     "static/media/wabtec-logo.svg": "/static/media/wabtec-logo.37fcc29577536e020ae0.svg",
     "index.html": "/index.html",
-    "main.abd2e9e4.css.map": "/static/css/main.abd2e9e4.css.map",
+    "main.4382217b.css.map": "/static/css/main.4382217b.css.map",
     "main.c41bc8a1.js.map": "/static/js/main.c41bc8a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd2e9e4.css",
+    "static/css/main.4382217b.css",
     "static/js/main.c41bc8a1.js"
   ]
 }

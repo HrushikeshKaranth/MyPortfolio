@@ -90,16 +90,6 @@ u {
   flex-direction: column;
 }
 
-.headerProject {
-  font-size: 24px;
-  color: #6ea3e0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
 .screenshot {
   width: 100%;
 }

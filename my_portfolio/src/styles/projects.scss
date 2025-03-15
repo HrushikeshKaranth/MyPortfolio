@@ -106,17 +106,6 @@ u{
     flex-direction: column;
 }
 
-.headerProject {
-    font-size: 24px;
-    // cursor: pointer;
-    color: $textColor2;
-    width: 100%;
-    @include flexEnd($v: center, $h: space-between);
-    gap: 1rem;
-
-    // justify-content: ;
-}
-
 // .headerProject:hover{
 //     color: white;
 // }
