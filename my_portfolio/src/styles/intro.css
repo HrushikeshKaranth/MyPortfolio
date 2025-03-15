@@ -138,6 +138,7 @@
 
 .bio {
   font-weight: 300;
+  line-height: 1.7rem;
   width: 100%;
   font-size: 18px;
   display: flex;
