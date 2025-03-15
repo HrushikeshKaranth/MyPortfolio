@@ -5,51 +5,125 @@
     align-items: $v;
     justify-content: $h;
 }
+a {
+    text-decoration: none;
+  }
+u{
+    // color: $textColor2;
+    text-decoration-color: $textColor2;
+}
 @keyframes breath {
-    0%{
+    0% {
         opacity: 0.2;
     }
-    50%{
+
+    50% {
         opacity: 1;
         transform: scale(120%);
     }
-    100%{
+
+    100% {
         opacity: 0.2;
     }
 }
 
 @keyframes openAnime {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
-.projects{
+
+.projects {
     margin-top: 1rem;
     padding: 1rem;
-    border-top: 2px solid $textColor1;
-    border-bottom: 2px solid $textColor1;
+    // border-top: 2px solid $textColor1;
+    // border-bottom: 2px solid $textColor1;
 }
 .headerProject{
-    font-size: 24px;
-    cursor: pointer;
+    @include flexEnd($v: center, $h: space-between);
+    // color: $textColor1;
+    font-size: 30px;
+    color: $textColor2;
+    gap: 1rem;
+    // font-size: 24px;
+}
+.proj{
+    margin-top: 1rem;
+    width: auto;
+    // @include flexEnd($v: center, $h: center);
+    display: flex;
+    // align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    transition: all .3s;
+    background-color: $secondaryColor;
+    border-radius: 5px;
+    padding: 1rem 0rem 1rem 1rem ;
+}
+.projName{
+    color: $textColor2;
+    
+}
+.project{
+    // border: 2px solid $gGreen;
+    animation: openAnime .3s;
+    width: auto;
+    // display: flex;
+    @include flexEnd($v: flex-start, $h: flex-start);
+    flex-wrap: wrap;
+    background-color: $primaryColor;
+    border-radius: 5px;
+    // flex-direction: column;
+    padding: .5rem;
+    transition: all .3s;
+    position: relative;
+}
+
+.projectLogo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    // background-color: $secondaryColor;
+
+}
+.projectTitle{
+    @include flexEnd($v: center, $h: center);
+    // background-color: $primaryColor;
+    // margin-bottom: .5rem;
+    // padding: .3rem 1rem;
+    // border-radius: 5px;
     color: $textColor1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ProjectName {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerProject {
+    font-size: 24px;
+    // cursor: pointer;
+    color: $textColor2;
     width: 100%;
     @include flexEnd($v: center, $h: space-between);
     gap: 1rem;
-    span{
-        cursor: pointer;
-    }
+
     // justify-content: ;
 }
+
 // .headerProject:hover{
 //     color: white;
 // }
-.screenshot{
+.screenshot {
     width: 100%;
-    img{
+
+    img {
         width: 50%;
         height: 18vw;
         border: 5px solid $primaryColor;

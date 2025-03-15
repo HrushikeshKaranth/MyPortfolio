@@ -78,13 +78,13 @@
 .headerEducation{
     font-size: 30px;
     color: $textColor2;
-    cursor: pointer;
+    // cursor: pointer;
     width: 100%;
     @include flexEnd($v: center, $h: space-between);
     gap: 1rem;
-    span{
-        cursor: pointer;
-    }
+    // span{
+    //     cursor: pointer;
+    // }
 }
 // .headerEducation:hover{
 //     color: white;

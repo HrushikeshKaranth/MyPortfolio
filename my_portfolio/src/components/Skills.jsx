@@ -13,7 +13,7 @@ function Skills() {
     }, [showSkills])
     return (
         <>
-            <div className='headerSkills' onClick={() => { setShowSkills(!showSkills) }}>
+            <div className='headerSkills'>
                 <span> <b>SKILLS</b></span>
                 {/* <Icon className='icon' ref={item} icon="material-symbols:keyboard-arrow-down-rounded" /> */}
             </div>

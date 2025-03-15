@@ -68,15 +68,11 @@
 .headerEducation {
   font-size: 30px;
   color: #6ea3e0;
-  cursor: pointer;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-}
-.headerEducation span {
-  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

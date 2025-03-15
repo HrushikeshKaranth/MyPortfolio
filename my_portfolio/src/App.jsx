@@ -43,10 +43,10 @@ function App() {
         <div></div>
         <Education/>
       </div>
-      {/* <div className="projects">
+      <div className="projects">
         <div></div>
         <Projects/>
-      </div> */}
+      </div>
       {/* <div className="skills">
         <Skills/>
       </div> */}

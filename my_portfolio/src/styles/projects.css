@@ -1,3 +1,11 @@
+a {
+  text-decoration: none;
+}
+
+u {
+  text-decoration-color: #6ea3e0;
+}
+
 @keyframes breath {
   0% {
     opacity: 0.2;
@@ -21,22 +29,75 @@
 .projects {
   margin-top: 1rem;
   padding: 1rem;
-  border-top: 2px solid rgb(233, 233, 233);
-  border-bottom: 2px solid rgb(233, 233, 233);
+}
+
+.headerProject {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  color: #6ea3e0;
+  gap: 1rem;
+}
+
+.proj {
+  margin-top: 1rem;
+  width: auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  transition: all 0.3s;
+  background-color: rgb(37, 37, 37);
+  border-radius: 5px;
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.projName {
+  color: #6ea3e0;
+}
+
+.project {
+  animation: openAnime 0.3s;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(48, 48, 48);
+  border-radius: 5px;
+  padding: 0.5rem;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.projectLogo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.projectTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(233, 233, 233);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ProjectName {
+  display: flex;
+  flex-direction: column;
 }
 
 .headerProject {
   font-size: 24px;
-  cursor: pointer;
-  color: rgb(233, 233, 233);
+  color: #6ea3e0;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-}
-.headerProject span {
-  cursor: pointer;
 }
 
 .screenshot {

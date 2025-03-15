@@ -13,7 +13,7 @@ function SkillsV2() {
     }, [showSkills])
     return (
         <>
-            <div className='headerSkills' onClick={() => { setShowSkills(!showSkills) }}>
+            <div className='headerSkills'>
                 <span><b>SKILLS</b></span>
                 {/* <Icon className='icon' ref={item} icon="material-symbols:keyboard-arrow-down-rounded" /> */}
             </div>
@@ -40,6 +40,36 @@ function SkillsV2() {
                     <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
                         {
                             data[0].languages.map((data) => {
+                                return (
+                                    <div className='skill' key={data.id}>
+                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                        <span>{data.name}</span>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+                <div className="skillsCard">
+                    <span><>Frameworks and Libraries:</></span>
+                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                        {
+                            data[0].frameworks.map((data) => {
+                                return (
+                                    <div className='skill' key={data.id}>
+                                        {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}
+                                        <span>{data.name}</span>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+                <div className="skillsCard">
+                    <span><>Database / SQL:</></span>
+                    <div className='skillSection' style={showSkills ? { display: 'flex' } : { display: 'none' }}>
+                        {
+                            data[0].db.map((data) => {
                                 return (
                                     <div className='skill' key={data.id}>
                                         {data.icon ? <Icon className='skillIcon' icon={data.icon} /> : <Icon className='skillIcon' icon="ph:wifi-none-thin" />}

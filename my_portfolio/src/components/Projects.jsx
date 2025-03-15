@@ -15,43 +15,31 @@ function Projects() {
     // const [showDesc, setShowDesc] = useState(false)
     return (
         <>
-            <div className='headerProject' onClick={() => { setShowProjects(!showProjects) }}>
-                <span><b>PROJECTS</b></span>
-                {
-                    // showProjects ?
-                    // <Icon className='icon' ref={item} icon="material-symbols:keyboard-arrow-down-rounded" />
-                    // :
-                    // <Icon className='icon' icon="material-symbols:keyboard-arrow-down-rounded" />
-                }
+            <div className='headerProject'>
+                <span><b className='projName'>PROJECTS</b></span>
             </div>
-            <div className='companies' >
+            <div className='proj' >
                 <>
                     {
                         data.map((data) => {
                             return (
-                                <div className='company' key={data.id}>
-                                    <div className='companyName'>
-                                        <div className='companyLogo'>{
-                                            data.logo ? <img src={require(`../images/${data.logo}`)} alt={data.name} /> :
-                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png" alt="no Logo" />}
+                                <div className='project' key={data.id}>
+                                    <div className='ProjectName'>
+                                        <div className='projectLogo'>
+                                            <Icon style={{ width: '30px', height: '30px' }} className='skillIcon' icon="skill-icons:github-light" />
+                                            {/* <div className='jobTitle'>{data.name}</div> */}
+                                            <a target={'_blank'} href={data.link}><div className='projectTitle'><u>{data.name}</u> </div></a>
                                         </div>
-                                        <span className='nameAndLinkedin'>
-                                            <span>{data.name}</span>
-                                        </span>
-                                    </div>
-                                    <>
-                                        {/* <div className='fromAndTo'
-                                            style={data.to == 'Present' ? { color: '#34a853' } : { color: '#f36b5f' }}>
-                                            <span className='fromYear'>{data.from}</span>
-                                            {' - '}
-                                            <span className='toYear'>{data.to}</span>
+                                        {/* <div className='projectNameAndLink'>
+                                            <br />
+                                            <div className='projectDescription'>
+                                                <p style={{ color: 'white' }}>- {data.description}{' '} </p>
+                                            </div>
                                         </div> */}
-                                        <div className='jobTitle'>Role - {data.jobTitle}</div>
-                                        <br />
-                                        <div className='projectDescription'>
-                                            <p style={{ color: 'white' }}>- {data.description}{' '} </p>
-                                        </div>
-                                    </>
+                                    </div>
+                                    {/* {data.link && <div className='websiteUrl'>
+                                        <a target={'_blank'} href={data.link}><Icon className='icon breath' icon="material-symbols:arrow-forward-rounded" /></a>
+                                    </div>} */}
                                     {/* <div className='screenshot hide'>
                                         <img src={require(`../images/${data.screenshot}`)} alt="" />
                                     </div> */}
@@ -67,9 +55,6 @@ function Projects() {
                                             }
                                         </ul>
                                     </div> */}
-                                    {data.link && <div className='websiteUrl'>
-                                        <a target={'_blank'} href={data.link}><Icon className='icon breath' icon="material-symbols:arrow-forward-rounded" /></a>
-                                    </div>}
                                 </div>
                             )
                         })}

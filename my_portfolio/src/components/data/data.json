@@ -43,78 +43,43 @@
     "projects": [
         {
             "id": 1,
-            "name": "Beghou Life Science and Consulting, US",
-            "description": "Beghou Life Sciences and Consulting is an American health and life science consulting firm dealing with health, diagnostics, and life science research. The company specializes in detection, imaging, health informatics, and services. Beghou produces analytical instruments, testing and diagnostics tools, imaging components, software, instruments, and consumables for multiple end markets.",
-            "working": "Completed",
-            "from": "Feb 2023",
-            "to": "Present",
-            "jobTitle": "DevOps Engineer",
-            "screenshot": "sound_wave.png",
-            "notes": [
-                " Oversaw the Git/Git Hub Version Control System by managing repositories, permissions, branching, and tagging.",
-                " Configured and monitored cloud infrastructure on AWS using services like EC2, EBS, SNS, ELB, CloudWatch, Data Dog, S3, IAM and auto-scaling.",
-                " Deployed CI/CD pipeline using Jenkins to accelerate the Development and Deployment process.",
-                " Formulated and stationed Docker containers to organize monolithic applications into microservices and also orchestrated those containers using Kubernetes clusters.",
-                " Automation of installing packages and configuration in different nodes using Ansible playbooks and also monitored them using Nagios.",
-                " Developed efficient scripts for a portfolio of products to be hosted on Application servers using Shell.",
-                " Supervised provisioning of infrastructure using Terraform.",
-                " Automated environment provisioning in Docker and Kubernetes using Jenkins.",
-                " Bug identification and changes in a production environment using JIRA tracking tool"
-            ],
-            "link": "https://beghouconsulting.com/",
-            "logo": "Beghou-Logo-Light.png"
+            "name": "Task Management App",
+            "link": "https://github.com/HrushikeshKaranth/Task-Management-app"
         },
         {
             "id": 2,
-            "name": "Skipton Mortgages, UK",
-            "description": "Skipton Mortgages specializes in mortgage processing in the UK. The company services are based on software used as a service model that narrows down and automates the originating and sourcing of funds for new mortgage loans and thus facilitates regulatory compliance.",
-            "working": "Completed",
-            "from": "July 2022",
-            "to": "Jan 2023",
-            "jobTitle": "DevOps Engineer",
-            "screenshot": "netflix.png",
-            "notes": [
-                "A landing page clone of Netflix with realtime info from TMDB database.",
-                "Has used API's to fetch the data from the TMDB database.",
-                "Developed using React JS, Axios."
-            ],
-            "link": "https://www.skipton.co.uk/",
-            "logo": "skipton-logo.svg"
+            "name": "My Portfolio Website",
+            "link": "https://github.com/HrushikeshKaranth/MyPortfolio"
         },
         {
             "id": 3,
-            "name": "Wabtec Corp, US",
-            "description": "Wabtec is a leading global provider of equipment, systems, digital solutions, and value-added services. The Company is spread across freight rail, transit, mining, industrial and marine. With high expertise, technologies, and pioneer employees, Wabtec is accelerating the future of transportation. The project combines data and information extracted from equipment and systems such as freight planning, rail schedules, transit planning, and fuel procurement for all modes of transportation. The data is then decoded, normalized, stored, analyzed, and utilized for report generation and dashboard creation.",
-            "working": "Completed",
-            "from": "Jan 2022",
-            "to": "June 2022",
-            "jobTitle": "Build and Release Engineer",
-            "screenshot": "task_management.png",
-            "notes": [
-                "Project features all the CRUD functionalities, Login validations, API's using Flask, MVC architecture, ORM.",
-                "In this project, Admin can assign task to users and users can check the assigned tasks when they login.",
-                "Developed using React JS, MySQL, Flask"
-            ],
-            "link": "https://www.wabteccorp.com/",
-            "logo": "wabtec-logo.svg"
+            "name": "Expense Tracker App",
+            "link": "https://github.com/HrushikeshKaranth/Expense-Tracker"
         },
         {
             "id": 4,
-            "name": "First National Financial, Canada",
-            "description": "First National mortgages which specialize in mortgage processing in Canada. The company provides financial services based on the software used as a service model that gauges, selects, and automates the origin and source of funds for new mortgage loans and thus ensures a smoother regulatory compliance mechanism.",
-            "working": "Completed",
-            "from": "Aug 2021",
-            "to": "Dec 2021",
-            "jobTitle": "Software Engineer",
-            "screenshot": "blckluxury.png",
-            "notes": [
-                "In this realtime project, Customer can rent a luxury car from the list based on the location.",
-                "Project features all the CRUD functionalities, Login validations, API's using Flask, MVC architecture, ORM.",
-                "Razer pay integration for payment gateway.",
-                "Developed using React JS, Flask, MySQL."
-            ],
-            "link": "https://www.firstnational.ca/",
-            "logo": "first-national-logo.svg"
+            "name": "Stock Trading App",
+            "link": "https://github.com/HrushikeshKaranth/delta-bot"
+        },
+        {
+            "id": 5,
+            "name": "Stock Market Sentiment Tracker",
+            "link": "https://github.com/HrushikeshKaranth/market-sentiment"
+        },
+        {
+            "id": 6,
+            "name": "Morse Code Translator",
+            "link": "https://github.com/HrushikeshKaranth/MorseCodeTranslator"
+        },
+        {
+            "id": 7,
+            "name": "Web Music Player",
+            "link": "https://hrushis-web-music-player.netlify.app/"
+        },
+        {
+            "id": 8,
+            "name": "Simple Messaging App",
+            "link": "https://github.com/HrushikeshKaranth/Simple-Messaging-App"
         }
     ],
     "skills": [
@@ -278,13 +243,13 @@
             "frameworks": [
                 {
                     "id": 1,
-                    "name": "Spring Boot",
-                    "icon": "logos:spring-icon"
+                    "name": "React JS",
+                    "icon": "logos:react"
                 },
                 {
                     "id": 2,
-                    "name": "React JS",
-                    "icon": "logos:react"
+                    "name": "Node JS",
+                    "icon": "logos:nodejs-icon"
                 },
                 {
                     "id": 3,
@@ -366,11 +331,6 @@
                     "id": 2,
                     "name": "GitHub",
                     "icon": "mdi:github"
-                },
-                {
-                    "id": 3,
-                    "name": "Subversion",
-                    "icon": "logos:subversion"
                 }
             ],
             "containerization": [
@@ -378,11 +338,6 @@
                     "id": 1,
                     "name": "Docker",
                     "icon": "skill-icons:docker"
-                },
-                {
-                    "id": 2,
-                    "name": "Kubernetes",
-                    "icon": "skill-icons:kubernetes"
                 }
             ],
             "iaas": [
@@ -395,6 +350,11 @@
                     "id": 2,
                     "name": "Ansible",
                     "icon": "devicon-plain:ansible-wordmark"
+                },
+                {
+                    "id": 3,
+                    "name": "Kubernetes",
+                    "icon": "skill-icons:kubernetes"
                 }
             ],
             "monitoring": [
@@ -402,7 +362,7 @@
                     "id": 1,
                     "name": "Nagios",
                     "icon": "",
-                    "logo":"nagios.png"
+                    "logo": "nagios.png"
                 },
                 {
                     "id": 2,

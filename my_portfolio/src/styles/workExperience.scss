@@ -53,20 +53,21 @@
 .companies{
     margin-top: 1rem;
     width: auto;
-    // @include flexEnd($v: flex-start, $h: space-between);
-    // gap: 1rem;
-    // flex-wrap: wrap;
+    @include flexEnd($v: flex-start, $h: space-between);
+    gap: 1rem;
+    flex-wrap: wrap;
     transition: all .3s;
 }
 .company{
     // border: 2px solid $gGreen;
     animation: openAnime .3s;
     width: 48.9%;
+    display: flex;
     @include flexEnd($v: flex-start, $h: flex-start);
     flex-wrap: wrap;
     background-color: $secondaryColor;
     border-radius: 5px;
-    flex-direction: column;
+    // flex-direction: column;
     padding: 1rem;
     transition: all .3s;
     position: relative;

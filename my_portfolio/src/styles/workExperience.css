@@ -43,6 +43,11 @@
 .companies {
   margin-top: 1rem;
   width: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
   transition: all 0.3s;
 }
 
@@ -50,12 +55,12 @@
   animation: openAnime 0.3s;
   width: 48.9%;
   display: flex;
+  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
   background-color: rgb(37, 37, 37);
   border-radius: 5px;
-  flex-direction: column;
   padding: 1rem;
   transition: all 0.3s;
   position: relative;

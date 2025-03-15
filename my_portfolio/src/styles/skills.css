@@ -43,10 +43,6 @@
   font-size: 30px;
   color: #6ea3e0;
   gap: 1rem;
-  cursor: pointer;
-}
-.headerSkills span {
-  cursor: pointer;
 }
 
 .skillSection {
