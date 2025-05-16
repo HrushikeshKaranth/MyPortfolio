@@ -5,7 +5,7 @@ function SocialLinks() {
         <>
             <div>
                 <Icon className='icon' icon="logos:google-gmail" />
-                <a target={'_blank'} href="mailto:hshrushikesh@gmail.com">hshrushikesh@gmail.com</a>
+                <a target={'_blank'} href="mailto:hshrushikesh@gmail.com">hrushikesh1133@gmail.com</a>
             </div>
             <div>
                 <Icon className='icon' icon="logos:google-maps" />
